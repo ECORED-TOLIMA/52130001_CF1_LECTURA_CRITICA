@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
+    Name: 'Normas generales de redacción de textos',
     Description:
       'El componente formativo integra los fundamentos de la escritura efectiva, así como las normas ortográficas vigentes. Aborda la estructura de párrafos, el uso de conectores y tipos textuales; asimismo, desarrolla la gramática española, el código ortográfico y los signos de puntuación. De esta manera, se fortalecen las competencias para producir documentos de calidad en contextos académicos y laborales.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
