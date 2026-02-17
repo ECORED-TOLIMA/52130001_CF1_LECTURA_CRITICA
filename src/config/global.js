@@ -1,17 +1,18 @@
 export default {
   global: {
     Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    Description:
+      'El componente formativo integra los fundamentos de la escritura efectiva, así como las normas ortográficas vigentes. Aborda la estructura de párrafos, el uso de conectores y tipos textuales; asimismo, desarrolla la gramática española, el código ortográfico y los signos de puntuación. De esta manera, se fortalecen las competencias para producir documentos de calidad en contextos académicos y laborales.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
     ],
   },
@@ -31,28 +32,101 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Estructura de un párrafo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
+        subMenu: [],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Estructura de textos',
         desarrolloContenidos: true,
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Algunos tipos de textos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Resumen',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Ensayo',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Resumen',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Ensayo',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Redacción de textos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Uso de mayúsculas',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Uso de minúsculas',
+            hash: 't_6_2',
+          },
+          {
+            numero: '6.3',
+            titulo: 'Reglas ortográficas',
+            hash: 't_6_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'La gramática española',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema8',
+        numero: '8',
+        titulo: 'Código ortográfico',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '8.1',
+            titulo: 'El sustantivo',
+            hash: 't_8_1',
+          },
+          {
+            numero: '8.2',
+            titulo: 'El adjetivo',
+            hash: 't_8_2',
+          },
+          {
+            numero: '8.3',
+            titulo: 'Sinónimos y antónimos',
+            hash: 't_8_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -86,7 +160,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA_XX_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -104,19 +178,101 @@ export default {
     {
       tema: '',
       referencia: '',
-      tipo: 'Sitio web',
+      tipo: '',
       link: '',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Dequeísmo',
+      significado:
+        'uso incorrecto de la preposición "de" antepuesta a la conjunción "que" en construcciones sintácticas donde no corresponde su empleo según las normas gramaticales.',
+    },
+    {
+      termino: 'Dígrafo',
+      significado:
+        'sonido mínimo y distintivo de una lengua que permite diferenciar el significado de las palabras mediante su posición y movimiento en los órganos del habla.',
+    },
+    {
+      termino: 'Ensayo',
+      significado:
+        'escrito en prosa que expone una interpretación personal sobre un tema mediante argumentos sólidos, estructura organizada y rigor metodológico.',
+    },
+    {
+      termino: 'Epíteto',
+      significado:
+        'adjetivo explicativo que expresa una cualidad inherente o propia del sustantivo al que acompaña, sin intención de distinguirlo de otros, como en "blanca nieve" o "mariposa alada".',
+    },
+    {
+      termino: 'Fonema',
+      significado:
+        'sonido mínimo y distintivo de una lengua que permite diferenciar el significado de las palabras mediante su posición y movimiento en los órganos del habla.',
+    },
+    {
+      termino: 'Hiato',
+      significado:
+        'secuencia de dos vocales contiguas que se separan en sílabas diferentes durante la pronunciación, principalmente cuando se unen dos vocales abiertas o cuando una vocal cerrada lleva tilde.',
+    },
+    {
+      termino: 'Homónimos',
+      significado:
+        'palabras que se escriben exactamente igual, pero poseen significados diferentes según el contexto en que se utilicen, como "lava" (acción de lavar) y "lava" (materia volcánica).',
+    },
+    {
+      termino: 'Parónimos',
+      significado:
+        'palabras que se pronuncian de forma muy parecida pero que tienen significados distintos, como "sumo" (de sumar o supremo) y "zumo" (jugo extraído de frutas).',
+    },
+    {
+      termino: 'Párrafo',
+      significado:
+        'unidad de pensamiento conformada por un grupo de oraciones organizadas y relacionadas que desarrollan una idea central con coherencia y cohesión.',
+    },
+    {
+      termino: 'Triptongo',
+      significado:
+        'unión inseparable de tres vocales que se pronuncian en una misma sílaba, formada por una vocal cerrada, una vocal abierta y otra vocal cerrada, como en la palabra "averigüéis".',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Enciclopedia Autodidáctica Océano Color. (2013). <em>Enciclopedia autodidáctica Océano Color</em> (Vols. 4–5). Océano.',
+      link: '',
+    },
+    {
+      referencia:
+        'García, C., Gutiérrez, M. C., y Condemarín, E. (2000). <em>A estudiar se aprende</em> (4.ª ed.). Alfaomega.',
+      link: '',
+    },
+    {
+      referencia:
+        'Martín Vivaldi, G. (s. f.). <em>Curso de redacción</em>. Prisma.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pontificia Universidad Javeriana. (2014). <em>El mayúsculo abuso del lenguaje</em>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Real Academia Española & Asociación de Academias de la Lengua Española. (2010). <em>Ortografía de la lengua española</em>.',
+      link: 'https://www.rae.es/obras-academicas/ortografia/ortografia-2010',
+    },
+    {
+      referencia:
+        'Real Academia Española. (s.f.). <em>Exclusión de ch y ll del abecedario</em>.',
+      link: 'https://www.rae.es/consultas/exclusion-de-ch-y-ll-del-abecedario',
+    },
+    {
+      referencia:
+        'Real Academia Española & Asociación de Academias de la Lengua Española. (2010). <em>Ortografía de la lengua española (2010)</em>.',
+      link: 'https://www.rae.es/obras-academicas/ortografia/ortografia-2010',
+    },
+    {
+      referencia:
+        'Universidad Sergio Arboleda. (2014). <em>Guía: El resumen</em>.',
       link: '',
     },
   ],
@@ -125,14 +281,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Diana Rocío Possos Beltrán',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -140,9 +296,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Nombre_Experto',
+          cargo: 'Cargo_Experto',
+          centro: 'Regional_Experto',
         },
       ],
     },
@@ -150,19 +306,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Nombre_Experto',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Nombre_Experto',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Nombre_Experto',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -170,14 +326,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Nombre_Experto',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Nombre_Experto',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },

@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Normas generales de redacción de textos',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar el dominio de la estructura textual y la normativa gramatical y ortográfica vigente, para garantizar una redacción correcta y coherente.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,28 +28,28 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es la característica de un párrafo que se refiere a desarrollar una sola idea central?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Cohesión.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Extensión.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Unidad.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Brevedad.',
               esCorrecta: false,
             },
           ],
@@ -58,29 +58,29 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'Los conectores son elementos que:',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Permiten relacionar ideas estableciendo vínculos lógicos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Separan ideas sin relación alguna.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Eliminan la coherencia del texto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Reducen la extensión del párrafo.',
               esCorrecta: false,
             },
           ],
@@ -89,29 +89,30 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            '¿Qué tipo de estructura textual se caracteriza por presentar la idea principal al principio del texto?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Estructura inductiva.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Estructura enumerativa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Estructura descriptiva.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Estructura deductiva.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -120,28 +121,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'La estructura que presenta elementos a modo de enumeración o lista se denomina:',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Estructura temporal.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Estructura enumerativa.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Estructura paralelística.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Estructura inductiva.',
               esCorrecta: false,
             },
           ],
@@ -150,29 +151,30 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            'Un buen resumen debe representar aproximadamente del texto original:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'La mitad exacta del contenido.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'El doble de extensión.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Menos del 10% del texto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Entre un tercio y una quinta parte.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -180,29 +182,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál es una característica fundamental del ensayo?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Estructura libre y reflexión personal.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Eliminar toda subjetividad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Copiar textualmente fuentes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Evitar argumentos sólidos.',
               esCorrecta: false,
             },
           ],
@@ -211,29 +212,29 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'La claridad en la redacción se logra mediante:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Lenguaje complejo y rebuscado.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Eliminación de signos de puntuación.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Lenguaje sencillo, palabras comprensibles y frases breves.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Uso excesivo de tecnicismos.',
               esCorrecta: false,
             },
           ],
@@ -243,29 +244,29 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'Seleccione el enunciado que mejor describe la concisión en la redacción:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Usar muchas palabras para explicar una idea.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Eliminar toda información relevante.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Aumentar la extensión del texto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Emplear solo palabras precisas y necesarias.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -274,19 +275,29 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            'Identifique cuál de las siguientes situaciones constituye un error común en la redacción de textos:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Separar con coma los elementos de una enumeración.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Separar con coma el sujeto del verbo.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Separar con coma las oraciones subordinadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Separar con coma los vocativos del resto de la oración.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -295,19 +306,29 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            'De acuerdo con la Real Academia Española, el alfabeto castellano vigente está conformado por:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: '29 letras.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: '25 letras.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '30 letras.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '27 letras.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -316,19 +337,29 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Cómo se denomina la unión inseparable de dos vocales que se pronuncian en una misma sílaba?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Diptongo.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Hiato.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Triptongo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Dígrafo.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,19 +367,23 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'Opción a)\tLos días de la semana.',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Los meses del año.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Los nombres propios.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Las estaciones del año.',
               esCorrecta: false,
             },
           ],
@@ -358,19 +393,29 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            'Complete el enunciado: de acuerdo con las reglas ortográficas, se escriben con minúscula:',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Los nombres de galaxias.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Los nombres propios de personas.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Los títulos de obras literarias.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Los días de la semana y meses del año.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -379,19 +424,29 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Cuál es la terminación de los verbos que se escriben con la letra "b"?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'ver y vir.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'ger y gir.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'bir.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'ducir.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -400,18 +455,184 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            'Identifique ante cuáles vocales la letra "g" representa el fonema velar sonoro:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'a, o, u.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'e, i.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Solo a la vocal e.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Solo a la vocal i.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            'El signo de puntuación coma (,) tiene como función principal:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Indicar el final de un enunciado completo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Señalar una pregunta directa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Expresar una exclamación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Marcar una pausa breve dentro de un enunciado.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            'Seleccione la función correcta de los dos puntos (:) en la redacción de textos:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Separar párrafos independientes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Detener el discurso y llamar la atención sobre lo que sigue.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Indicar una pregunta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Finalizar un texto.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            'De acuerdo con las normas de puntuación, el punto (.) debe escribirse:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'a) Separado de la palabra que lo precede.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'b) Dentro de paréntesis siempre.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'c) Sin separación de la palabra que lo precede.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'd) Solo al inicio de párrafo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            'Complete el enunciado: los sustantivos son palabras variables que presentan morfemas de:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo número.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Solo género.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Tiempo y modo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Género y número.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Qué caracteriza a las palabras sinónimas?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Se escriben de forma diferente, pero tienen significado similar.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Tienen significados opuestos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Se pronuncian exactamente igual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Siempre se escriben igual.',
               esCorrecta: false,
             },
           ],
