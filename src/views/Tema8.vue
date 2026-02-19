@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
-      .titulo-principal__numero
+      .titulo-principal__numero(data-aos="flip-up")
         span 8
       h1 Clases de palabras
 
@@ -20,7 +20,7 @@
 
 
     separador
-    #t_8_1.titulo-segundo.color-acento-contenido
+    #t_8_1.titulo-segundo.color-acento-contenido(data-aos="fade-down")
       h2 8.1 El sustantivo
 
     .row.align-items-center
@@ -48,15 +48,20 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Figura 4.
-          span 
-            i Clasificación del sustantivo
+          span Clasificación del sustantivo
 
         figure
-          img(src='@/assets/curso/tema8/5.svg', alt='Figura 3. Clasificación del sustantivo.Esquema que presenta la clasificación de los sustantivos en abstractos y concretos. Los sustantivos concretos se subdividen en propios y comunes, y estos últimos en contables, no contables, individuales y colectivos, con ejemplos en cada caso. ', style="width: 1020px").m-auto
+          img.d-none.d-md-block.m-auto(
+            src='@/assets/curso/tema8/5.svg',
+            alt='Figura 3. Clasificación del sustantivo.Esquema que presenta la clasificación de los sustantivos en abstractos y concretos. Los sustantivos concretos se subdividen en propios y comunes, y estos últimos en contables, no contables, individuales y colectivos, con ejemplos en cada caso. ', style="width: 1020px").m-auto
+          img.d-block.d-md-none.m-auto(
+            src='@/assets/curso/tema8/5m.svg',
+            alt='Figura 3. Clasificación de las vocales según su apertura. Esquema que muestra la clasificación de las vocales: “i” y “u” como vocales cerradas; “e” y “o” como vocales semicerradas o semiabiertas; y “a” como vocal abierta, indicando su grado de apertura en la articulación.'
+          )
 
 
     separador
-    #t_8_2.titulo-segundo.color-acento-contenido
+    #t_8_2.titulo-segundo.color-acento-contenido(data-aos="fade-down")
       h2 8.2 El adjetivo
 
     p El adjetivo es la parte de la oración que se añade al sustantivo para calificarlo o determinarlo. De este modo, puede aportar una nota o cualidad del sustantivo o bien precisar la extensión de su significado. A partir de esta función, los adjetivos se dividen en dos grandes grupos: calificativos (perro guardián) y determinativos (dos perros).
@@ -76,7 +81,12 @@
     .row.mt-4.justify-content-center
       .col-lg-10.p-5.bg-7.bg-r8
         figure
-          img(src='@/assets/curso/tema8/7.svg', alt='', style="width: 680px").m-auto
+          img.d-none.d-md-block.m-auto(
+            src='@/assets/curso/tema8/7.svg',
+            alt='Esquema con tres etiquetas en forma de flechas que presentan ejemplos de adjetivos calificativos aplicados a sustantivos: Animales feroces, Insectos grandes e Insectos pequeños. ', style="width: 680px").m-auto
+          img.d-block.d-md-none.m-auto(
+            src='@/assets/curso/tema8/7m.svg',
+            alt='Esquema con tres etiquetas en forma de flechas que presentan ejemplos de adjetivos calificativos aplicados a sustantivos: Animales feroces, Insectos grandes e Insectos pequeños. ')
 
 
     .row.align-items-center.mt-4
@@ -99,34 +109,42 @@
 
     .row.mt-4.justify-content-center
       .col-lg-10
-        ImagenInfografica.color-acento-botones
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema8/10.svg', alt='Texto que describa la imagen')
+        .d-none.d-md-block
+          ImagenInfografica.color-acento-botones
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema8/10.svg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-secundario.p-3(x="15%" y="83%" numero="+")
-            .h5.mb-2 Indefinidos
-            p Nombran al sustantivo de manera vaga o imprecisa. Ejemplo: algún día se resolverá el inconveniente.
+            .tarjeta.color-secundario.p-3(x="15%" y="83%" numero="+")
+              .h5.mb-2 Indefinidos
+              p Nombran al sustantivo de manera vaga o imprecisa. Ejemplo: algún día se resolverá el inconveniente.
 
-          .tarjeta.color-secundario.p-3(x="25%" y="46%" numero="+")
-            .h5.mb-2 Relativos
-            p Remiten a un elemento mencionado anteriormente en el discurso. Ejemplo: el aprendiz cuya asistencia fue completa recibió el certificado.
+            .tarjeta.color-secundario.p-3(x="25%" y="46%" numero="+")
+              .h5.mb-2 Relativos
+              p Remiten a un elemento mencionado anteriormente en el discurso. Ejemplo: el aprendiz cuya asistencia fue completa recibió el certificado.
 
-          .tarjeta.color-secundario.p-3(x="40%" y="26%" numero="+")
-            .h5.mb-2 Interrogativos y exclamativos
-            p Indican la actitud del hablante en enunciados interrogativos o exclamativos. Ejemplo: ¿Qué horario prefiere?. ¡Cuánta lluvia ha caído!.
+            .tarjeta.color-secundario.p-3(x="40%" y="26%" numero="+")
+              .h5.mb-2 Interrogativos y exclamativos
+              p Indican la actitud del hablante en enunciados interrogativos o exclamativos. Ejemplo: ¿Qué horario prefiere?. ¡Cuánta lluvia ha caído!.
 
-          .tarjeta.color-secundario.p-3(x="60%" y="26%" numero="+")
-            .h5.mb-2 Posesivos
-            p Indican pertenencia en relación con la primera, segunda o tercera persona. Ejemplo: el aprendiz entregó su proyecto a tiempo.
+            .tarjeta.color-secundario.p-3(x="60%" y="26%" numero="+")
+              .h5.mb-2 Posesivos
+              p Indican pertenencia en relación con la primera, segunda o tercera persona. Ejemplo: el aprendiz entregó su proyecto a tiempo.
 
-          .tarjeta.color-secundario.p-3(x="80%" y="46%" numero="+")
-            .h5.mb-2 Demostrativos
-            p Indican la posición del sustantivo con respecto a la persona que habla o escucha. Ejemplo: este informe debe ser revisado hoy.
+            .tarjeta.color-secundario.p-3(x="80%" y="46%" numero="+")
+              .h5.mb-2 Demostrativos
+              p Indican la posición del sustantivo con respecto a la persona que habla o escucha. Ejemplo: este informe debe ser revisado hoy.
 
-          .tarjeta.color-secundario.p-3(x="86%" y="83%" numero="+")
-            .h5.mb-2 Numerales
-            p Indican un número determinado y se subdividen en cardinales, ordinales, partitivos, múltiplos y colectivos. Ejemplo: el primer estudiante.
+            .tarjeta.color-secundario.p-3(x="86%" y="83%" numero="+")
+              .h5.mb-2 Numerales
+              p Indican un número determinado y se subdividen en cardinales, ordinales, partitivos, múltiplos y colectivos. Ejemplo: el primer estudiante.
+
+        figure.d-block.d-md-none
+          img.m-auto(
+            src='@/assets/curso/tema8/10m.svg',
+            alt='Texto que describa la imagen'
+          )
+
 
 
     .titulo-tres.mt-5: h3 8.3 Sinónimos y antónimos

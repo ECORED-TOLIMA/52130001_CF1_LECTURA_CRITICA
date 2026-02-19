@@ -4,14 +4,14 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
     .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
+      .titulo-principal__numero(data-aos="flip-up")
         span
           i.fas.fa-info
       h1 Introducción
 
     .row.align-items-center.justify-content-center
       .col-lg-2
-        figure
+        figure(data-aos="fade-left")
           img(src="@/assets/curso/intro/1.svg", alt="", style="width: 188px").m-auto
       .col-lg-10
         p.mt-4 La escritura de párrafos y textos es una competencia esencial para el desarrollo de la lectura crítica, ya que permite organizar ideas, expresar opiniones y comunicar información de forma clara y comprensible. A través de la escritura se fortalecen procesos como la interpretación, el análisis y la reflexión frente a distintos tipos de textos. Comprender cómo se construyen los mensajes escritos favorece la producción de textos con sentido lógico y coherente, fundamentales en contextos académicos, laborales y sociales.
@@ -20,12 +20,12 @@
       .col-lg-10
         .row.align-items-center.justify-content-center.p-4.bg-2.bg-r8
           .col-lg-8
-            p La escritura de párrafos y textos es una competencia esencial para el desarrollo de la lectura crítica, ya que permite organizar ideas, expresar opiniones y comunicar información de forma clara y comprensible. A través de la escritura se fortalecen procesos como la interpretación, el análisis y la reflexión frente a distintos tipos de textos. Comprender cómo se construyen los mensajes escritos favorece la producción de textos con sentido lógico y coherente, fundamentales en contextos académicos, laborales y sociales.
+            p El fortalecimiento de estas habilidades comunicativas contribuye a mejorar la comprensión de lo que se lee y la expresión de ideas propias de manera clara y ordenada. Mediante el uso adecuado del lenguaje y la organización de la información, se promueve una lectura crítica que integra análisis, reflexión y producción escrita, favoreciendo una comunicación efectiva en diferentes contextos. 
           .col-lg-4
-            figure
+            figure(data-aos="fade-left")
               img(src="@/assets/curso/intro/2.svg", alt="", style="width: 280px").m-auto
               
-    .bg-1
+    .bg-1.m-30
       .col-12 
         .p-5 
           p.mt-4 Desde una aproximación gradual y práctica, se abordan aspectos generales de la escritura que facilitan la comprensión y producción de textos sencillos. Este enfoque permite desarrollar la capacidad de expresar ideas con claridad y sentido, fortaleciendo el proceso de lectura crítica.
@@ -34,7 +34,7 @@
 
           .row.justify-content-center.align-items-center.mt-4           
             .col-lg-12
-              figure
+              figure(data-aos="fade-left")
                 .video
                   iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 

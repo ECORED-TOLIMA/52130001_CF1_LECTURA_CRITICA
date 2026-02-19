@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
-      .titulo-principal__numero
+      .titulo-principal__numero(data-aos="flip-up")
         span 3
       h1 Algunos tipos de textos
 
@@ -11,7 +11,7 @@
       .col-lg-12
         .row.justify-content-center.mt-4
           .col-lg-12(data-aos="fade-down")
-            .row.d-flex.align-items-center.bg-2(data-aos="fade-right")
+            .row.d-flex.align-items-center.bg-8(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
                   img(src='@/assets/curso/tema3/1.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
@@ -22,7 +22,7 @@
 
 
     separador
-    #t_3_1.titulo-segundo.color-acento-contenido
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-down")
       h2 3.1 Resumen
 
     .row.align-items-center
@@ -34,7 +34,7 @@
         p La cultura extraviada en sus definiciones presenta cuatro características fundamentales:
 
       .col-lg-5
-        figure
+        figure(data-aos="zoom-in-down")
           img(src='@/assets/curso/tema3/2.png', alt='', style="width: 500px").m-auto
 
 
@@ -43,46 +43,46 @@
         .tarjeta--boton.bg-4.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
-              figure
+              figure(data-aos="zoom-in-down")
                 img(src='@/assets/curso/tema3/3.svg', style="width: 128px").m-auto
 
           p.text-center
             b Objetividad
-          p.text-small.text-center Se refiere al respeto de las ideas originales del texto y del estilo del autor.
+          p.text-center Se refiere al respeto de las ideas originales del texto y del estilo del autor.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-4.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
-              figure
+              figure(data-aos="zoom-in-down")
                 img(src='@/assets/curso/tema3/4.svg', style="width: 128px").m-auto
 
           p.text-center
             b Claridad
-          p.text-small.text-center Facilita la comprensión que debe posibilitar el texto. 
+          p.text-center Facilita la comprensión que debe posibilitar el texto. 
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-4.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
-              figure
+              figure(data-aos="zoom-in-down")
                 img(src='@/assets/curso/tema3/5.svg', style="width: 128px").m-auto
 
           p.text-center
             b Precisión
-          p.text-small.text-center Hace alusión a su forma de enunciación, que, con oraciones cortas y concisas, condensa el sentido del texto. 
+          p.text-center Hace alusión a su forma de enunciación, que, con oraciones cortas y concisas, condensa el sentido del texto. 
 
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-4.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
-              figure
+              figure(data-aos="zoom-in-down")
                 img(src='@/assets/curso/tema3/6.svg', style="width: 128px").m-auto
 
           p.text-center
             b Flexibilidad
-          p.text-small.text-center Se refiere a la posibilidad de producir diferentes tipos de resumen. Al ser un texto nuevo, la originalidad depende del estilo del redactor. 
+          p.text-center Se refiere a la posibilidad de producir diferentes tipos de resumen. Al ser un texto nuevo, la originalidad depende del estilo del redactor. 
 
 
     .row.align-items-center.mt-4
@@ -91,13 +91,13 @@
 
         .row.align-items-center.bg-5.bg-r8.p-3
           .col-lg-2.d-lg-block-d-none
-            figure
+            figure(data-aos="zoom-in-down")
               img(src="@/assets/curso/tema3/7.svg", alt="", style="width: 80px").m-auto
           .col-lg-10
             p Resumir consiste en convertir un texto extenso en otro más breve. Este proceso implica ordenar las ideas fundamentales y expresarlas de forma personal y creativa, utilizando palabras propias y un estilo adecuado para la elaboración de la síntesis.
 
       .col-lg-4
-        figure
+        figure(data-aos="zoom-in-down")
           img(src='@/assets/curso/tema3/8.png', alt='', style="width: 400px").m-auto
 
 
@@ -121,7 +121,7 @@
         p.mb-0 Debe ir de lo fundamental a lo explicativo.
 
       li.d-flex.align-items-start.p-1
-        span.icono-img
+        span.icono-imgz
         p.mb-0 En los resúmenes no podrán utilizarse guiones ni asteriscos. El punto seguido es el medio de enlace.
 
       li.d-flex.align-items-start.p-1
@@ -133,12 +133,12 @@
         p.mb-0 Facilita la comprensión y ayuda enormemente al repaso de las lecciones.
 
 
-    .bg-6(style="margin-top: -30px")
+    .bg-6(style="margin-top: -50px")
       .col-12
         .p-5
           .row.align-items-center
             .col-lg-4.d-none.d-lg-block
-              figure
+              figure(data-aos="zoom-in-down")
                 img(src='@/assets/curso/tema3/9.png', alt='', style="width: 400px").m-auto
 
             .col-lg-8
@@ -183,7 +183,7 @@
 
 
     separador
-    #t_3_2.titulo-segundo.color-acento-contenido
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-down")
       h2 3.2  Ensayo 
 
     .row.align-items-end
@@ -219,7 +219,7 @@
 
 
       .col-lg-3.d-none.d-lg-block
-        figure
+        figure(data-aos="zoom-in-down")
           img(src='@/assets/curso/tema3/10.png', alt='', style="width: 290px").m-auto
 
 
@@ -260,7 +260,7 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10.bg-2
-        figure
+        figure(data-aos="zoom-in-down")
           img(src='@/assets/curso/tema3/11.svg').m-auto
         .row.bg-8.p-4.align-items-center.justify-content-center
           .col-12.bg-9.bg-r8.p-4
@@ -301,7 +301,7 @@
 
 
       .col-lg-3.d-none.d-lg-block
-        figure
+        figure(data-aos="zoom-in-down")
           img(src='@/assets/curso/tema3/12.svg', alt='', style="width: 270px").m-auto
 
 
@@ -309,13 +309,13 @@
       .col-lg-10
         .row.align-items-center.justify-content-center.p-4.bg-2.bg-r8
           .col-lg-2
-            figure
+            figure(data-aos="zoom-in-down")
               img(src="@/assets/curso/tema1/11.svg", alt="", style="width: 100px").m-auto
           .col-lg-8
             p.text-center
               b Pregunta: ¿Cuál es la diferencia de los tipos de textos resumen y ensayo?
           .col-lg-2
-            figure
+            figure(data-aos="zoom-in-down")
               img(src="@/assets/curso/tema1/11.svg", alt="", style="width: 100px").m-auto
 
 

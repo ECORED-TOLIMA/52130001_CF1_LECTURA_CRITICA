@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
-      .titulo-principal__numero
+      .titulo-principal__numero(data-aos="flip-up")
         span 1
       h1 Estructura de un párrafo
 
@@ -15,7 +15,7 @@
       .py-4.py-md-5(titulo="Unidad" :icono="require('@/assets/curso/tema1/1.svg')")
         .row.p-4
           .col-md-5.mb-4.mb-md-0
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema1/6.png', alt='Texto que describa la imagen')
 
           .col-md-7
@@ -24,7 +24,7 @@
       .py-4.py-md-5(titulo="Cohesión y coherencia" :icono="require('@/assets/curso/tema1/2.svg')")
         .row.p-4
           .col-md-5.mb-4.mb-md-0
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema1/7.png', alt='Texto que describa la imagen')
 
           .col-md-7
@@ -33,7 +33,7 @@
       .py-4.py-md-5(titulo="Extensión" :icono="require('@/assets/curso/tema1/3.svg')")
         .row.p-4
           .col-md-5.mb-4.mb-md-0
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema1/8.png', alt='Texto que describa la imagen')
 
           .col-md-7
@@ -43,7 +43,7 @@
       .py-4.py-md-5(titulo="Párrafos funcionales" :icono="require('@/assets/curso/tema1/4.svg')")
         .row.p-4
           .col-md-5.mb-4.mb-md-0
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema1/9.png', alt='Texto que describa la imagen')
 
           .col-md-7
@@ -70,7 +70,7 @@
       .py-4.py-md-5(titulo="Conectores" :icono="require('@/assets/curso/tema1/5.svg')")
         .row.p-4
           .col-md-5.mb-4.mb-md-0
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema1/10.png', alt='Texto que describa la imagen')
 
           .col-md-7
@@ -129,19 +129,19 @@
                 td Resumen
                 td Finalmente, en suma, en conclusión, para terminar, para conclusión, en fin, por fin, por último, en definitiva, pues bien.
               
-    p.mt-4 El párrafo es una unidad de pensamiento donde el autor expresa una determinada idea en el marco de cada párrafo. 
+    p.mt-4 Después de identificar los elementos que conforman el párrafo y los mecanismos que garantizan su coherencia y cohesión, es importante analizar qué aspectos deben considerarse para asegurar una redacción adecuada. En este contexto, se plantea la siguiente pregunta orientadora:
 
     .row.justify-content-center
       .col-lg-10
         .row.align-items-center.justify-content-center.p-4.bg-2.bg-r8
           .col-lg-2
-            figure
+            figure(data-aos="zoom-in-up")
               img(src="@/assets/curso/tema1/11.svg", alt="", style="width: 100px").m-auto
           .col-lg-8
             p.text-center
               b ¿Qué se debe tener en cuenta para la escritura correcta de un párrafo?
           .col-lg-2
-            figure
+            figure(data-aos="zoom-in-up")
               img(src="@/assets/curso/tema1/11.svg", alt="", style="width: 100px").m-auto
  
 </template>

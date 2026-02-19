@@ -91,7 +91,7 @@ export default {
           id: 3,
           texto:
             '¿Qué tipo de estructura textual se caracteriza por presentar la idea principal al principio del texto?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -122,7 +122,7 @@ export default {
           id: 4,
           texto:
             'La estructura que presenta elementos a modo de enumeración o lista se denomina:',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -153,7 +153,7 @@ export default {
           id: 5,
           texto:
             'Un buen resumen debe representar aproximadamente del texto original:',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -183,7 +183,7 @@ export default {
         {
           id: 6,
           texto: '¿Cuál es una característica fundamental del ensayo?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -213,7 +213,7 @@ export default {
         {
           id: 7,
           texto: 'La claridad en la redacción se logra mediante:',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -245,7 +245,7 @@ export default {
           id: 8,
           texto:
             'Seleccione el enunciado que mejor describe la concisión en la redacción:',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -276,7 +276,7 @@ export default {
           id: 9,
           texto:
             'Identifique cuál de las siguientes situaciones constituye un error común en la redacción de textos:',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -307,7 +307,7 @@ export default {
           id: 10,
           texto:
             'De acuerdo con la Real Academia Española, el alfabeto castellano vigente está conformado por:',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -338,7 +338,7 @@ export default {
           id: 11,
           texto:
             '¿Cómo se denomina la unión inseparable de dos vocales que se pronuncian en una misma sílaba?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -368,7 +368,7 @@ export default {
         {
           id: 12,
           texto: 'Opción a)\tLos días de la semana.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -394,7 +394,7 @@ export default {
           id: 13,
           texto:
             'Complete el enunciado: de acuerdo con las reglas ortográficas, se escriben con minúscula:',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -425,7 +425,7 @@ export default {
           id: 14,
           texto:
             '¿Cuál es la terminación de los verbos que se escriben con la letra "b"?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -456,7 +456,7 @@ export default {
           id: 15,
           texto:
             'Identifique ante cuáles vocales la letra "g" representa el fonema velar sonoro:',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -487,7 +487,7 @@ export default {
           id: 16,
           texto:
             'El signo de puntuación coma (,) tiene como función principal:',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -518,7 +518,7 @@ export default {
           id: 17,
           texto:
             'Seleccione la función correcta de los dos puntos (:) en la redacción de textos:',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -550,7 +550,7 @@ export default {
           id: 18,
           texto:
             'De acuerdo con las normas de puntuación, el punto (.) debe escribirse:',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -581,7 +581,7 @@ export default {
           id: 19,
           texto:
             'Complete el enunciado: los sustantivos son palabras variables que presentan morfemas de:',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -611,7 +611,7 @@ export default {
         {
           id: 20,
           texto: '¿Qué caracteriza a las palabras sinónimas?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {

@@ -64,21 +64,21 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Resumen',
+        titulo: 'Redacción de textos',
         desarrolloContenidos: true,
         subMenu: [],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Ensayo',
+        titulo: 'La gramática española',
         desarrolloContenidos: true,
         subMenu: [],
       },
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Redacción de textos',
+        titulo: 'Código ortográfico',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -101,14 +101,14 @@ export default {
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: 'La gramática española',
+        titulo: 'Signos de puntuación',
         desarrolloContenidos: true,
         subMenu: [],
       },
       {
         nombreRuta: 'tema8',
         numero: '8',
-        titulo: 'Código ortográfico',
+        titulo: 'Clases de palabras',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -146,11 +146,6 @@ export default {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
-      },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
       },
       {
         icono: 'fas fa-book',
@@ -281,13 +276,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del equipo',
-          centro: 'Dirección General',
+          nombre: 'Claudia Johanna Gómez Pérez ',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED) ',
+          centro: 'Dirección General  ',
         },
         {
           nombre: 'Diana Rocío Possos Beltrán',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de línea de producción ',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -296,9 +292,19 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Cargo_Experto',
-          centro: 'Regional_Experto',
+          nombre: 'Jenny Paola García Cárdenas',
+          cargo: 'Experta temática',
+          centro: 'Regional Risaralda ',
+        },
+        {
+          nombre: 'Didier Andrés Ospina Osorio',
+          cargo: 'Asesor pedagógico',
+          centro: 'Regional Risaralda ',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suárez',
+          cargo: 'Evaluadora instruccional ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -306,17 +312,22 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Diseñador web',
+          nombre: 'Oscar Ivan Uribe Ortiz',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Juan Daniel Polanco Muñoz',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Manuel Felipe Echavarria Orozco',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -326,12 +337,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Javier Mauricio Oviedo ',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

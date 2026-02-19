@@ -29,11 +29,17 @@
             .col-10
               .titulo-sexto.color-acento-contenido.mb-3.mt-4
                 h5 Figura 3.
-                span
-                  i Clasificación de las vocales según su apertura
+                span Clasificación de las vocales según su apertura
               figure
-                img(src='@/assets/curso/tema5/2.svg', alt='Figura 3. Clasificación de las vocales según su apertura. Esquema que muestra la clasificación de las vocales: “i” y “u” como vocales cerradas; “e” y “o” como vocales semicerradas o semiabiertas; y “a” como vocal abierta, indicando su grado de apertura en la articulación.').m-auto
-            
+                img.d-none.d-md-block.m-auto(
+                  src='@/assets/curso/tema5/2.svg',
+                  alt='Figura 3. Clasificación de las vocales según su apertura. Esquema que muestra la clasificación de las vocales: “i” y “u” como vocales cerradas; “e” y “o” como vocales semicerradas o semiabiertas; y “a” como vocal abierta, indicando su grado de apertura en la articulación.'
+                )
+                img.d-block.d-md-none.m-auto(
+                  src='@/assets/curso/tema5/2m.svg',
+                  alt='Figura 3. Clasificación de las vocales según su apertura. Esquema que muestra la clasificación de las vocales: “i” y “u” como vocales cerradas; “e” y “o” como vocales semicerradas o semiabiertas; y “a” como vocal abierta, indicando su grado de apertura en la articulación.'
+                )
+
           p.mt-4 A continuación, se presenta el alfabeto castellano, en el que se relacionan las letras en mayúscula y minúscula junto con su denominación o sonido correspondiente, con el fin de facilitar su reconocimiento y uso correcto en los procesos de lectura y escritura.
 
 
@@ -191,7 +197,7 @@
 
     .row.mt-4
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.bg-11.p-4.h-100
+        .tarjeta--boton.bg-18.p-4.h-100
           .row.justify-content-center.mb-3
             .col-12
               figure
@@ -199,16 +205,16 @@
 
           p.text-center
             b Diptongo
-          p.text-small.text-center Es la unión inseparable de dos vocales que se pronuncian en una misma sílaba. Puede formarse por la combinación de una vocal abierta y una vocal cerrada, una vocal cerrada y una vocal abierta, o por la unión de dos vocales cerradas. 
+          p.text-center Es la unión inseparable de dos vocales que se pronuncian en una misma sílaba. Puede formarse por la combinación de una vocal abierta y una vocal cerrada, una vocal cerrada y una vocal abierta, o por la unión de dos vocales cerradas. 
 
-          p.text-small.text-center.mb-0 Ejemplos:
-          p.text-small.text-center.mb-0 Ley — ley
-          p.text-small.text-center.mb-0 Hoy — hoy
-          p.text-small.text-center.mb-0 Cuidado — cui – da – do
-          p.text-small.text-center.mb-0 Tierra — tie – rra
+          p.text-center.mb-0 Ejemplos:
+          p.text-center.mb-0 Ley — ley
+          p.text-center.mb-0 Hoy — hoy
+          p.text-center.mb-0 Cuidado — cui – da – do
+          p.text-center.mb-0 Tierra — tie – rra
 
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.bg-11.p-4.h-100
+        .tarjeta--boton.bg-18.p-4.h-100
           .row.justify-content-center.mb-3
             .col-12
               figure
@@ -216,16 +222,16 @@
 
           p.text-center
             b Hiato
-          p.text-small.text-center Se presenta cuando dos vocales contiguas se separan en sílabas diferentes durante la pronunciación. Esto ocurre, principalmente, cuando se unen dos vocales abiertas o cuando una vocal cerrada lleva tilde, lo que impide la formación del diptongo. 
+          p.text-center Se presenta cuando dos vocales contiguas se separan en sílabas diferentes durante la pronunciación. Esto ocurre, principalmente, cuando se unen dos vocales abiertas o cuando una vocal cerrada lleva tilde, lo que impide la formación del diptongo. 
 
-          p.text-small.text-center.mb-0 Ejemplos: 
-          p.text-small.text-center.mb-0 Maestro — ma – es – tro
-          p.text-small.text-center.mb-0 Croar — cro – ar
-          p.text-small.text-center.mb-0 Veas — ve – as
-          p.text-small.text-center.mb-0 Petróleo — pe – tró – le – o
+          p.text-center.mb-0 Ejemplos: 
+          p.text-center.mb-0 Maestro — ma – es – tro
+          p.text-center.mb-0 Croar — cro – ar
+          p.text-center.mb-0 Veas — ve – as
+          p.text-center.mb-0 Petróleo — pe – tró – le – o
 
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.bg-11.p-4.h-100
+        .tarjeta--boton.bg-18.p-4.h-100
           .row.justify-content-center.mb-3
             .col-12
               figure
@@ -233,14 +239,14 @@
 
           p.text-center
             b Triptongo
-          p.text-small.text-center.mb-0 Es la unión inseparable de tres vocales que se pronuncian en una misma sílaba. La única disposición posible para su formación responde al esquema vocal cerrada + vocal abierta (o semiabierta) + vocal cerrada. Así se presentan las siguientes combinaciones:
-          p.text-small.text-center iai – iei – ioi – uau – uou – iau – ieu – iou – uai – uei – uoi
+          p.text-center.mb-0 Es la unión inseparable de tres vocales que se pronuncian en una misma sílaba. La única disposición posible para su formación responde al esquema vocal cerrada + vocal abierta (o semiabierta) + vocal cerrada. Así se presentan las siguientes combinaciones:
+          p.text-center iai – iei – ioi – uau – uou – iau – ieu – iou – uai – uei – uoi
 
-          p.text-small.text-center.mb-0 Ejemplos: 
-          p.text-small.text-center.mb-0 Confiáis — con – fiáis
-          p.text-small.text-center.mb-0 Guau — guau
-          p.text-small.text-center.mb-0 Estudiéis — es – tu – diéis
-          p.text-small.text-center.mb-0 Paraguay — Pa – ra – guay
+          p.text-center.mb-0 Ejemplos: 
+          p.text-center.mb-0 Confiáis — con – fiáis
+          p.text-center.mb-0 Guau — guau
+          p.text-center.mb-0 Estudiéis — es – tu – diéis
+          p.text-center.mb-0 Paraguay — Pa – ra – guay
 
 
     .row.align-items-center.mt-4

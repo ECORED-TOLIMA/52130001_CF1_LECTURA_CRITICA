@@ -15,7 +15,7 @@
         p El código ortográfico reúne el conjunto de normas que regulan la correcta escritura de las palabras en la lengua española. Su conocimiento permite evitar errores frecuentes y garantizar claridad, uniformidad y precisión en la comunicación escrita. A continuación, se presentan aspectos fundamentales relacionados con el uso de mayúsculas, minúsculas y reglas ortográficas. 
 
     separador
-    #t_6_1.titulo-segundo.color-acento-contenido
+    #t_6_1.titulo-segundo.color-acento-contenido(data-aos="fade-down")
       h2 6.1 Uso de mayúsculas
     
     p La escritura normal utiliza habitualmente las letras minúsculas, si bien, por distintos motivos, pueden escribirse enteramente con mayúsculas palabras, frases e incluso textos enteros; pero lo usual es que las mayúsculas se utilicen solo en posición inicial de palabra, y su aparición está condicionada por distintos factores.
@@ -25,7 +25,7 @@
         ol.lista-ol.bg-7.p-4.bg-r8
           li 
             span.text-bold a)
-            | La palabra inicial de un escrito
+            | La palabra inicial de un escrito.
 
           li 
             span.text-bold b)
@@ -43,7 +43,7 @@
 
           li 
             span.text-bold e)
-            | Los números romanos
+            | Los números romanos.
 
 
           li 
@@ -111,7 +111,7 @@
 
 
     separador
-    #t_6_2.titulo-segundo.color-acento-contenido
+    #t_6_2.titulo-segundo.color-acento-contenido(data-aos="fade-down")
       h2 6.2 Uso de minúsculas 
 
     p Se emplea la minúscula en días, meses, estaciones y en cargos, títulos o rangos que acompañen al nombre propio del sujeto. También se aplica a religiones, movimientos políticos y abreviaturas, exceptuando libros bíblicos y elementos químicos.
@@ -165,7 +165,7 @@
                   p.text-center #[b g) ] Los sustantivos que designan las diferentes religiones.
 
     .separador
-    #t_6_3.titulo-segundo.color-acento-contenido
+    #t_6_3.titulo-segundo.color-acento-contenido(data-aos="fade-down")
       h2 6.3 Reglas ortográficas
 
     p Las reglas ortográficas son el conjunto de normas que regulan la escritura correcta de una lengua, estableciendo el uso adecuado de letras y signos de puntuación para garantizar una comunicación clara, unificada y sin ambigüedades.
@@ -174,7 +174,7 @@
       .py-3.py-md-4.bg-13(titulo="Se escribe con b")
         .row
           .col-md-12.mb-4.mb-md-0
-            p La letra b siempre representa el fonema labial sonoro de barco, beso, blusa o abuelo. Notas orientadoras sobre el uso de la letra b Se escriben con b:
+            p La letra b siempre representa el fonema labial sonoro de barco, beso, blusa o abuelo. Notas orientadoras sobre el uso de la letra b se escriben con b:
 
             ol.lista-ol
               li 
@@ -195,7 +195,7 @@
 
               li 
                 span.text-bold e)
-                | e) El pretérito imperfecto de indicativo de ir: iba, ibas, etc.
+                | El pretérito imperfecto de indicativo de ir: iba, ibas, etc.
 
               li 
                 span.text-bold f)
@@ -207,7 +207,7 @@
 
               li 
                 span.text-bold h)
-                | Las que contienen el elemento compositivo bio-, -bio ('vida'). Ejemplos: biografía, biosfera, anaerobio, microbio
+                | Las que contienen el elemento compositivo bio-, -bio ('vida'). Ejemplos: biografía, biosfera, anaerobio, microbio.
 
               li 
                 span.text-bold i)
@@ -267,41 +267,41 @@
 
     .row
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-secundario.p-4.h-100
+        .tarjeta--boton.bg-20.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
-              figure
+              figure(data-aos="fade-up")
                 img(src='@/assets/curso/tema6/10.svg', alt='')
 
-          p.text-small Los sustantivos terminados en –ción, cuando en su familia hay palabras que terminan en -to, -tor, -dor. Ejemplos: absolución (absuelto), compilación (compilador), operación (operador), canción (canto).
+          p Los sustantivos terminados en –ción, cuando en su familia hay palabras que terminan en -to, -tor, -dor. Ejemplos: absolución (absuelto), compilación (compilador), operación (operador), canción (canto).
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-secundario.p-4.h-100
+        .tarjeta--boton.bg-20.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
-              figure
+              figure(data-aos="fade-up")
                 img(src='@/assets/curso/tema6/11.svg', alt='')
 
-          p.text-small.mb-0 Las palabras terminadas en –acción, -ección, -icció, ucción, excepto reflexión, conexión, y crucifixión.
-          p.text-small Ejemplos: calefacción, elección, predicción, producción.
+          p.mb-0 Las palabras terminadas en –acción, -ección, -icció, ucción, excepto reflexión, conexión, y crucifixión.
+          p Ejemplos: calefacción, elección, predicción, producción.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-secundario.p-4.h-100
+        .tarjeta--boton.bg-20.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
-              figure
+              figure(data-aos="fade-up")
                 img(src='@/assets/curso/tema6/12.svg', alt='')
 
-          p.text-small Los verbos terminados en –acer, -ecer, y –ciar. Ejemplos: renacer, aparecer, apreciar.
+          p Los verbos terminados en –acer, -ecer, y –ciar. Ejemplos: renacer, aparecer, apreciar.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-secundario.p-4.h-100
+        .tarjeta--boton.bg-20.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
-              figure
+              figure(data-aos="fade-up")
                 img(src='@/assets/curso/tema6/13.svg', alt='')
 
-          p.text-small.mb-0 La mayoría de las palabras que terminan en –cio, -ancia, -encia, -acia. Ejemplos: espacio, exuberancia, vivencia, acrobacia.
+          p.mb-0 La mayoría de las palabras que terminan en –cio, -ancia, -encia, -acia. Ejemplos: espacio, exuberancia, vivencia, acrobacia.
 
 
     .titulo-tres.mt-5: h3 Se escribe con q
@@ -313,21 +313,21 @@
         p Las palabras en que el fonema mencionado precede a las vocales e, i. 
 
         .row.bg-7.bg-r8.p-3.align-items-center
-          .col-lg-2.d-lg-block.d-none
-            figure
+          .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
+            figure(data-aos="fade-up")
               img(src="@/assets/curso/tema6/14.svg", alt="", style="width: 85px").m-auto
           .col-lg-10
             p #[b Ejemplos:] esquela, aquí, quiste. De ahí que las formas de un amplio grupo de verbos cuyos infinitivos terminan en -car cambien la #[b c] por #[b qu] en el pretérito perfecto simple y en el presente de subjuntivo. Ejemplos: remolqué (de remolcar), ataquemos (de atacar).
 
         .row.align-items-center.mt-4
           .col-lg-4.d-lg-block.d-none
-            figure
+            figure(data-aos="fade-up")
               img(src="@/assets/curso/tema6/15.svg", alt="", style="width: 290px").m-auto
           .col-lg-8
             p Algunas voces científicas, palabras y locuciones latinas en que este grupo de letras precede con sonido oclusivo velar sordo a las vocales a y o, la letra u sí se pronuncia. Ejemplos: quark, quáter, a quo, quorum. Para otros casos, se recomienda emplear la grafía adaptada al español, como en cuark, cuásar, cuórum, Irak, Catar, Turquestán, caqui, cuáquero, euskera, quiosco o telequinesia.
 
       .col-lg-3.d-lg-block.d-none
-        figure
+        figure(data-aos="fade-up")
           img(src='@/assets/curso/tema6/16.png', alt='', style="width: 290px").m-auto
 
 
@@ -343,7 +343,7 @@
         p.mb-0 El #[b dígrafo gu] representa este mismo fonema cuando precede a las vocales #[b e, i], como en guerra o guitarra. Sin embargo, cuando la #[b g] y la #[b u] deben pronunciarse de manera independiente ante e, i, es obligatorio el uso de la diéresis sobre la u. Ejemplos de ello son antigüedad, desagüe y lingüístico.
         p Por otra parte, el fonema fricativo velar sordo se representa mediante la letra j ante cualquier vocal, como en jarra, jeta, jirón, joya o júbilo, y también mediante la letra g cuando antecede a las vocales e, i, como en gente o girar.
       .col-lg-5.d-none.d-lg-block
-        figure
+        figure(data-aos="fade-up")
           img(src='@/assets/curso/tema6/17.png', alt='', style="width: 500px").m-auto
 
     p.mt-4 En síntesis, la #[b letra g] puede representar dos fonemas distintos:
@@ -351,16 +351,16 @@
     .row.mt-4.justify-content-center.gap-3
       .col-lg-5
         .row.bg-2.bg-r8.p-3.align-items-center
-          .col-lg-2.d-lg-block.d-none
-            figure
+          .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
+            figure(data-aos="fade-up")
               img(src="@/assets/curso/tema6/18.svg", alt="", style="width: 85px").m-auto
           .col-lg-10
             p #[b Un fonema velar sonoro]  ante las vocales a, o, u y ante consonante, como en gamo, gloria o magno.
 
       .col-lg-5
         .row.bg-2.bg-r8.p-3.align-items-center
-          .col-lg-2.d-lg-block.d-none
-            figure
+          .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
+            figure(data-aos="fade-up")
               img(src="@/assets/curso/tema6/19.svg", alt="", style="width: 85px").m-auto
           .col-lg-10
             p #[b Un fonema velar sordo]  ante las vocales e, i, como en gerundio y gimnasia.
@@ -402,42 +402,42 @@
           .row.justify-content-center
             .col-lg-10
               SlyderF(columnas="col-lg-6 col-xl-4")
-                .tarjeta.bg-4.p-4
+                .tarjeta.bg-19.p-4
                   .row.justify-content-center.mb-3
                     .col-6
                       img(src='@/assets/curso/tema6/20.svg' alt='AvatarTop')
-                  p.text-center.text-small #[b a)] palabras derivadas de voces que tienen j ante las vocales a, o, u. Así, cajero, cajita (de caja); lisonjear (de lisonja); cojear (de cojo); ojear (de ojo); rojear, rojizo (de rojo).
+                  p.text-center #[b a)] palabras derivadas de voces que tienen j ante las vocales a, o, u. Así, cajero, cajita (de caja); lisonjear (de lisonja); cojear (de cojo); ojear (de ojo); rojear, rojizo (de rojo).
 
-                .tarjeta.bg-4.p-4
+                .tarjeta.bg-19.p-4
                   .row.justify-content-center.mb-3
                     .col-6
                       img(src='@/assets/curso/tema6/21.svg' alt='AvatarTop')
-                  p.text-center.mb-0.text-small #[b b) ] Las voces de uso actual que terminan en -aje, -eje. Ejemplos: coraje, hereje, garaje.
-                  p.text-center.text-small Excepciones: ambages, enálage, ipálage.
+                  p.text-center.mb-0 #[b b) ] Las voces de uso actual que terminan en -aje, -eje. Ejemplos: coraje, hereje, garaje.
+                  p.text-center Excepciones: ambages, enálage, ipálage.
 
-                .tarjeta.bg-4.p-4
+                .tarjeta.bg-19.p-4
                   .row.justify-content-center.mb-3
                     .col-6
                       img(src='@/assets/curso/tema6/22.svg' alt='AvatarTop')
-                  p.text-center.text-small #[b c) ] Las que acaban en -jería. Ejemplos: cerrajería, consejería, extranjería.
+                  p.text-center #[b c) ] Las que acaban en -jería. Ejemplos: cerrajería, consejería, extranjería.
 
-                .tarjeta.bg-4.p-4
+                .tarjeta.bg-19.p-4
                   .row.justify-content-center.mb-3
                     .col-6
                       img(src='@/assets/curso/tema6/23.svg' alt='AvatarTop')
-                  p.text-center.text-small #[b d) ] Las formas verbales de los infinitivos que terminan en -jar. Ejemplos: trabaje, trabajemos (de trabajar), empuje (de empujar). También las de los pocos verbos terminados en -jer y en -jir, como cruje (de crujir), teje (de tejer).
+                  p.text-center #[b d) ] Las formas verbales de los infinitivos que terminan en -jar. Ejemplos: trabaje, trabajemos (de trabajar), empuje (de empujar). También las de los pocos verbos terminados en -jer y en -jir, como cruje (de crujir), teje (de tejer).
 
-                .tarjeta.bg-4.p-4
+                .tarjeta.bg-19.p-4
                   .row.justify-content-center.mb-3
                     .col-6
                       img(src='@/assets/curso/tema6/24.svg' alt='AvatarTop')
-                  p.text-center.text-small #[b e) ] Los verbos terminados en -jear, así como sus correspondientes formas verbales. Ejemplos: canjear, homenajear, cojear. Excepción: aspergear.
+                  p.text-center #[b e) ] Los verbos terminados en -jear, así como sus correspondientes formas verbales. Ejemplos: canjear, homenajear, cojear. Excepción: aspergear.
 
-                .tarjeta.bg-4.p-4
+                .tarjeta.bg-19.p-4
                   .row.justify-content-center.mb-3
                     .col-6
                       img(src='@/assets/curso/tema6/25.svg' alt='AvatarTop')
-                  p.text-center.text-small #[b f) ] El pretérito perfecto simple y el pretérito imperfecto y futuro de subjuntivo de los verbos traer, decir y sus derivados, y de los verbos terminados en -ducir. Ejemplos: traje (de traer), dije, dijera (de decir), predijéramos (de predecir), adujera, adujeren (de aducir).
+                  p.text-center #[b f) ] El pretérito perfecto simple y el pretérito imperfecto y futuro de subjuntivo de los verbos traer, decir y sus derivados, y de los verbos terminados en -ducir. Ejemplos: traje (de traer), dije, dijera (de decir), predijéramos (de predecir), adujera, adujeren (de aducir).
 
 
     .titulo-tres.mt-5: h3 Se escribe con h
@@ -450,19 +450,19 @@
           p.mb-0 Las formas de los verbos #[b haber, hacer, hallar, hablar y habitar] se escriben con h.
           p Ejemplos: haga, hallemos, hablará.
       .col-lg-3.d-lg-block.d-none
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema6/26.svg', alt='', style="width: 290px").m-auto
 
     .row.align-items-center.mt-4
       .col-lg-4.d-lg-block.d-none
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema6/27.png', alt='', style="width: 396px").m-auto     
       .col-lg-8
         p Como ya se ha indicado, también se escriben con h los compuestos y derivados de vocablos que la contienen en su forma original. Algunos ejemplos: gentilhombre (compuesto de hombre), herbáceo (derivado de hierba).
 
         .row.bg-7.bg-r8.p-2.align-items-center
-          .col-lg-2.d-lg-block.d-none
-            figure
+          .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
+            figure(data-aos="fade-left")
               img(src="@/assets/curso/tema6/28.svg", alt="", style="width: 80px").m-auto
           .col-lg-10
             p Por el contrario, las palabras acción e ilación se escriben #[b sin h], ya que la primera no procede del verbo hacer ni la segunda de hilo o hilar. Acción proviene del latín actio, derivado del supino actum, e ilación procede del latín illatio, a su vez derivado del supino illatum.
@@ -475,31 +475,34 @@
 
     p La letra y puede representar dos fonemas distintos: uno vocálico, equivalente al sonido representado por la letra i en palabras como muy, estoy o y; y otro consonántico, correspondiente al fonema palatal sonoro, presente en palabras como reyes, callado u hoyo.
 
+    p
+      b Notas orientadoras sobre el uso de la letra y
+
     .row.justify-content-center
       .col-lg-10
         .row.bg-5.bg-r4.p-3.align-items-center
-          .col-lg-2.d-lg-block.d-none
-            figure
+          .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
+            figure(data-aos="fade-left")
               img(src="@/assets/curso/tema6/29.svg", alt="", style="width: 80px").m-auto
           .col-lg-10
             p.mb-0 Se escriben con y las palabras que terminan con el sonido equivalente a i cuando este va precedido de una vocal con la que forma diptongo, o de dos vocales con las que forma triptongo.
             p Ejemplos: ay, estoy, verdegay, Bombay, buey, ley, rey, convoy, soy, Godoy, muy, Uruguay, Garay. Existen algunas excepciones, como saharaui o bonsái.
         .row.bg-7.p-3.align-items-center
-          .col-lg-2.d-lg-block.d-none
-            figure
+          .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
+            figure(data-aos="fade-left")
               img(src="@/assets/curso/tema6/30.svg", alt="", style="width: 80px").m-auto
           .col-lg-10
             p.mb-0 La conjunción copulativa y se escribe con esta letra.
             p Ejemplos: Juan y María; cielo y tierra; este y aquel. Esta conjunción adopta la forma e ante palabras que comienzan por el fonema vocálico correspondiente a i (ciencia e historia; catedrales e iglesias), salvo cuando dicha vocal forma diptongo (cobre y hierro; estratosfera y ionosfera).
         .row.bg-5.p-3.align-items-center
-          .col-lg-2.d-lg-block.d-none
-            figure
+          .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
+            figure(data-aos="fade-left")
               img(src="@/assets/curso/tema6/31.svg", alt="", style="width: 80px").m-auto
           .col-lg-10
             p Las palabras que presentan el sonido palatal sonoro ante vocal se escriben con y, especialmente en los siguientes casos. En primer lugar, cuando este sonido aparece después de los prefijos ad-, dis- y sub-, como en adyacente, disyuntivo y subyugar. En segundo lugar, en algunas formas de los verbos caer, raer, creer, leer, poseer, proveer y sobreser, así como en los verbos terminados en -oir y -uir, por ejemplo: cayeran, leyendo, oyó, concluyó y atribuyera.
         .row.bg-7.bg-r2.p-3.align-items-center
-          .col-lg-2.d-lg-block.d-none
-            figure
+          .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
+            figure(data-aos="fade-left")
               img(src="@/assets/curso/tema6/32.svg", alt="", style="width: 80px").m-auto
           .col-lg-10
             p Asimismo, se escriben con y las palabras que contienen la sílaba yec-, como abyecto, proyección e inyectar. También conservan la y los plurales de los sustantivos que terminan en y en singular, como rey/reyes, y el gerundio del verbo ir, yendo.
@@ -517,7 +520,7 @@
         .row.justify-content-center.text-center.bg-8.bg-r8.p-4
           p La reducción a /s/ de la pronunciación de la x suele originar dudas ortográficas, por lo que es necesario atender a la forma correcta de escritura de las palabras. 
       .col-lg-4.d-lg-block.d-none
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema6/33.png', alt='', style="width: 390px").m-auto
 
     p.mt-4 A partir de esta reflexión, surge la siguiente pregunta orientadora:
@@ -526,13 +529,13 @@
       .col-lg-10
         .row.align-items-center.justify-content-center.p-4.bg-2.bg-r8
           .col-lg-2
-            figure
+            figure(data-aos="fade-left")
               img(src="@/assets/curso/tema1/11.svg", alt="", style="width: 100px").m-auto
           .col-lg-8
             p.text-center
               b ¿Qué importancia tiene la ortografía en la escritura?
           .col-lg-2
-            figure
+            figure(data-aos="fade-left")
               img(src="@/assets/curso/tema1/11.svg", alt="", style="width: 100px").m-auto
 
 

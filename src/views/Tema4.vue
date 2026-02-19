@@ -7,7 +7,7 @@
         span 4
       h1 Redacción de textos
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/1.png')})`}"
       )
@@ -17,7 +17,7 @@
     .row.align-items-center.mt-4
       .col-lg-10
         .row.align-items-center
-          .col-lg-2.d-lg-block.d-none
+          .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
             figure
               img(src="@/assets/curso/tema4/2.svg", alt="", style="width: 80px").m-auto
           .col-lg-10
@@ -102,7 +102,7 @@
             .col-lg-10
               .titulo-sexto.color-acento-contenido.mb-3.mt-4
                 h5 Figura 1.
-                span #[i Uso adecuado del lenguaje en la redacción]
+                span Uso adecuado del lenguaje en la redacción
 
               figure
                 img(src='@/assets/curso/tema4/8.svg', alt=' Figura 1. Balanza que compara una frase imprecisa (“Incorrecto”) con una redacción clara (“Correcto”), resaltando la importancia de la precisión en el lenguaje.', style="width: 480px").m-auto
@@ -120,7 +120,7 @@
             .col-lg-10
               .titulo-sexto.color-acento-contenido.mb-3.mt-4
                 h5 Figura 2.
-                span #[i Uso correcto e incorrecto del gerundio]
+                span Uso correcto e incorrecto del gerundio
 
               figure
                 img(src='@/assets/curso/tema4/9.svg', alt=' Figura 2. Uso correcto e incorrecto del gerundio. Balanza que compara una oración con gerundio incorrecto y otra con una redacción adecuada.', style="width: 480px").m-auto
@@ -131,11 +131,11 @@
             .col-lg-10
               .row.align-items-center.bg-8.bg-r8.p-4
                 .col-lg-7
-                  p Empezó su discurso dando las gracias al jurado
+                  p Empezó su discurso dando las gracias al jurado.
 
                   p #[b Pregunta:] ¿Cómo empezó el discurso?
 
-                  p #[b Respuesta:] Dando las gracias al jurado
+                  p #[b Respuesta:] dando las gracias al jurado.
 
                 .col-lg-5.d-none.d-lg-block
                   figure
