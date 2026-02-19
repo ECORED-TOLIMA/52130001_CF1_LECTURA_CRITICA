@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="97.128" viewBox="0 0 80 97.128">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_997364" data-name="Trazado 997364" d="M46.38,0C20.806,0,0,21.787,0,48.565S20.806,97.129,46.38,97.129a44.837,44.837,0,0,0,23.5-6.678,21.376,21.376,0,0,0,9.364-13.057A23.979,23.979,0,0,0,80,71.519v-.187a23.362,23.362,0,0,0-2.509-10.471c-3.481-6.88-10.085-11.153-17.235-11.153a18.356,18.356,0,0,0-9.6,2.757A8.136,8.136,0,0,1,46.38,53.63c-3.963,0-6.925-2.674-6.925-5.065S42.417,43.5,46.38,43.5a8.165,8.165,0,0,1,4.209,1.126,18.338,18.338,0,0,0,9.441,2.659c7.231,0,13.869-4.345,17.325-11.334A23.59,23.59,0,0,0,78.964,19.4,21.327,21.327,0,0,0,69.486,6.441,44.838,44.838,0,0,0,46.38,0Z" transform="translate(0 -0.001)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="1" x2="0.009" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d1d3d4"/>
+      <stop offset="1" stop-color="#f1f2f2"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="Trazado_997365" data-name="Trazado 997365" d="M15,51.872c0,19.483,15.306,35.334,34.12,35.334A33.223,33.223,0,0,0,66.6,82.224c4.125-2.552,5.6-8.326,3.3-12.9s-7.512-6.21-11.638-3.658a17.377,17.377,0,0,1-9.149,2.578c-9.379,0-17.011-7.345-17.011-16.374S39.74,35.5,49.12,35.5a17.4,17.4,0,0,1,9,2.49c4.146,2.508,9.345.814,11.605-3.782s.735-10.354-3.413-12.861a33.233,33.233,0,0,0-17.2-4.805C30.306,16.538,15,32.389,15,51.872" transform="translate(-15 -16.538)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-0.181" y1="1.163" x2="-0.169" y2="1.163" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00aeee"/>
+      <stop offset="0.235" stop-color="#009fe2"/>
+      <stop offset="0.522" stop-color="#0097dc"/>
+      <stop offset="1" stop-color="#0095da"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1178142" data-name="Grupo 1178142" transform="translate(0 -0.001)">
+    <g id="Grupo_1178139" data-name="Grupo 1178139" transform="translate(0 0.001)">
+      <g id="Grupo_1178138" data-name="Grupo 1178138" clip-path="url(#clip-path)">
+        <rect id="Rectángulo_455114" data-name="Rectángulo 455114" width="80.45" height="97.128" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Grupo_1178141" data-name="Grupo 1178141" transform="translate(12 13.231)">
+      <g id="Grupo_1178140" data-name="Grupo 1178140" clip-path="url(#clip-path-2)">
+        <rect id="Rectángulo_455115" data-name="Rectángulo 455115" width="57.209" height="70.668" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>
