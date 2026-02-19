@@ -19,7 +19,7 @@
         .row.align-items-center
           .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
             figure
-              img(src="@/assets/curso/tema4/2.svg", alt="", style="width: 80px").m-auto
+              img(src="@/assets/curso/tema4/2.svg", alt="", style="width: 100px").m-auto
           .col-lg-10
             p De esta concepción dialéctica de la escritura, que articula el pensar con el escribir, se desprende la estrecha relación entre contenido y forma, la cual todo redactor debe reconocer como eje fundamental de cualquier ejercicio de redacción. En torno a esta relación se estructuran las principales características de la buena redacción, que se desarrollan a continuación.
 
@@ -105,8 +105,12 @@
                 span Uso adecuado del lenguaje en la redacción
 
               figure
-                img(src='@/assets/curso/tema4/8.svg', alt=' Figura 1. Balanza que compara una frase imprecisa (“Incorrecto”) con una redacción clara (“Correcto”), resaltando la importancia de la precisión en el lenguaje.', style="width: 480px").m-auto
-
+                img.d-none.d-md-block.m-auto(
+                  src='@/assets/curso/tema4/8.svg', alt=' Figura 1. Balanza que compara una frase imprecisa (“Incorrecto”) con una redacción clara (“Correcto”), resaltando la importancia de la precisión en el lenguaje.', style="width: 480px").m-auto
+                img.d-block.d-md-none.m-auto(
+                  src='@/assets/curso/tema4/8m.svg',
+                  alt='Figura 1. Balanza que compara una frase imprecisa (“Incorrecto”) con una redacción clara (“Correcto”), resaltando la importancia de la precisión en el lenguaje.'
+                )
 
     .row.justify-content-center.mt-3
       .col-lg-10
@@ -123,7 +127,12 @@
                 span Uso correcto e incorrecto del gerundio
 
               figure
-                img(src='@/assets/curso/tema4/9.svg', alt=' Figura 2. Uso correcto e incorrecto del gerundio. Balanza que compara una oración con gerundio incorrecto y otra con una redacción adecuada.', style="width: 480px").m-auto
+                img.d-none.d-md-block.m-auto(
+                  src='@/assets/curso/tema4/9.svg', alt='Figura 2. Uso correcto e incorrecto del gerundio. Balanza que compara una oración con gerundio incorrecto y otra con una redacción adecuada.', style="width: 480px").m-auto
+                img.d-block.d-md-none.m-auto(
+                  src='@/assets/curso/tema4/9m.svg',
+                  alt='Figura 2. Uso correcto e incorrecto del gerundio. Balanza que compara una oración con gerundio incorrecto y otra con una redacción adecuada.'
+                )
 
           p.mt-4  Para saber si un gerundio está empleado de forma correcta o incorrecta pregunte ‘¿cómo?’ al verbo. Si la respuesta la da el gerundio, está bien empleada. De lo contrario debe buscar una palabra que lo reemplace. Ejemplo:
 
