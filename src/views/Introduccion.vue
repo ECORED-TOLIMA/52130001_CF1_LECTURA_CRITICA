@@ -20,7 +20,7 @@
       .col-lg-10
         .row.align-items-center.justify-content-center.p-4.bg-2.bg-r8
           .col-lg-8
-            p El fortalecimiento de estas habilidades comunicativas contribuye a mejorar la comprensión de lo que se lee y la expresión de ideas propias de manera clara y ordenada. Mediante el uso adecuado del lenguaje y la organización de la información, se promueve una lectura crítica que integra análisis, reflexión y producción escrita, favoreciendo una comunicación efectiva en diferentes contextos. 
+            p El fortalecimiento de estas habilidades comunicativas contribuye a mejorar la comprensión de lo que se lee y la expresión de ideas propias de manera clara y ordenada. Mediante el uso adecuado del lenguaje y la organización de la información, se promueve una lectura crítica que integra análisis, reflexión y producción escrita, favoreciendo una comunicación efectiva en diferentes contextos.
           .col-lg-4
             figure(data-aos="fade-left")
               img(src="@/assets/curso/intro/2.svg", alt="", style="width: 280px").m-auto

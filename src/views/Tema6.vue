@@ -406,8 +406,7 @@
                   .row.justify-content-center.mb-3
                     .col-6
                       img(src='@/assets/curso/tema6/20.svg' alt='AvatarTop')
-                  p.text-center #[b a)] palabras derivadas de voces que tienen j ante las vocales a, o, u. Así, cajero, cajita (de caja); lisonjear (de lisonja); cojear (de cojo); ojear (de ojo); rojear, rojizo (de rojo).
-
+                  p.text-center #[b a)] Las palabras derivadas de voces que tienen j ante las vocales a, o, u. Así, cajero, cajita (de caja); lisonjear (de lisonja); cojear (de cojo); ojear (de ojo); rojear, rojizo (de rojo).
                 .tarjeta.bg-19.p-4
                   .row.justify-content-center.mb-3
                     .col-6
