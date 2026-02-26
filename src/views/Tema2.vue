@@ -86,6 +86,8 @@
           figure(data-aos="zoom-in-up")
             img(src='@/assets/curso/tema2/7.png', alt='')
 
+    p.mt-4 Luego de analizar las diferentes estructuras textuales y su función dentro del discurso, resulta pertinente reflexionar sobre su impacto en la comprensión y organización de las ideas. En este sentido, se plantea el siguiente interrogante:
+
     .row.justify-content-center.mt-4
       .col-lg-10
         .row.align-items-center.justify-content-center.p-4.bg-2.bg-r8
