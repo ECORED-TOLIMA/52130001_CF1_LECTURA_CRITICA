@@ -121,7 +121,7 @@
         p.mb-0 Debe ir de lo fundamental a lo explicativo.
 
       li.d-flex.align-items-start.p-1
-        span.icono-imgz
+        span.icono-img
         p.mb-0 En los resúmenes no podrán utilizarse guiones ni asteriscos. El punto seguido es el medio de enlace.
 
       li.d-flex.align-items-start.p-1
@@ -160,6 +160,10 @@
                 li.d-flex.align-items-start.p-1
                   span.icono-img
                   p.mb-0 Escriba las palabras subrayadas.
+
+                li.d-flex.align-items-start.p-1
+                  span.icono-img
+                  p.mb-0 Transcriba las ideas principales.
 
                 li.d-flex.align-items-start.p-1
                   span.icono-img
