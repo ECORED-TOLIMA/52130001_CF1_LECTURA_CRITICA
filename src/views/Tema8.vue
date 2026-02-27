@@ -53,10 +53,10 @@
         figure
           img.d-none.d-md-block.m-auto(
             src='@/assets/curso/tema8/5.svg',
-            alt='Figura 3. Clasificación del sustantivo.Esquema que presenta la clasificación de los sustantivos en abstractos y concretos. Los sustantivos concretos se subdividen en propios y comunes, y estos últimos en contables, no contables, individuales y colectivos, con ejemplos en cada caso. ', style="width: 1020px").m-auto
+            alt='Figura 4. Clasificación del sustantivo. Esquema que presenta la clasificación de los sustantivos en abstractos y concretos. Los sustantivos concretos se subdividen en propios y comunes, y estos últimos en contables, no contables, individuales y colectivos, con ejemplos en cada caso. ', style="width: 1020px").m-auto
           img.d-block.d-md-none.m-auto(
             src='@/assets/curso/tema8/5m.svg',
-            alt='Figura 3. Clasificación de las vocales según su apertura. Esquema que muestra la clasificación de las vocales: “i” y “u” como vocales cerradas; “e” y “o” como vocales semicerradas o semiabiertas; y “a” como vocal abierta, indicando su grado de apertura en la articulación.'
+            alt='Figura 4. Clasificación del sustantivo. Esquema que presenta la clasificación de los sustantivos en abstractos y concretos. Los sustantivos concretos se subdividen en propios y comunes, y estos últimos en contables, no contables, individuales y colectivos, con ejemplos en cada caso. '
           )
 
 
@@ -79,8 +79,13 @@
           img(src='@/assets/curso/tema8/6.png', alt='', style="width: 390px").m-auto
 
     .row.mt-4.justify-content-center
-      .col-lg-10.p-5.bg-7.bg-r8
-        figure
+      .col-lg-10
+
+        .titulo-sexto.color-acento-contenido.mb-3.mt-4
+          h5 Figura 5.
+          span Ejemplos de adjetivos calificativos
+
+        figure.p-5.bg-7.bg-r8
           img.d-none.d-md-block.m-auto(
             src='@/assets/curso/tema8/7.svg',
             alt='Esquema con tres etiquetas en forma de flechas que presentan ejemplos de adjetivos calificativos aplicados a sustantivos: Animales feroces, Insectos grandes e Insectos pequeños. ', style="width: 680px").m-auto
