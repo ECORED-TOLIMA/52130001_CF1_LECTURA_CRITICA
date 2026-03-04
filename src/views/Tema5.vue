@@ -134,8 +134,8 @@
                 td r
                 td (ere)
               tr
-                td R
-                td r
+                td RR
+                td rr
                 td (erre)
               tr
                 td S
@@ -184,7 +184,7 @@
       .col-lg-10
         .row.align-items-center
           .col-lg-8
-            p En relación con los grupos vocálicos, el diptongo es la unión inseparable de dos vocales: una abierta + una cerrada; una cerrada + una abierta, o dos cerradas. De este modo, se presentan los siguientes casos:
+            p En relación con los grupos vocálicos, el diptongo es la unión de dos vocales: una abierta + una cerrada; una cerrada + una abierta, o dos cerradas. De este modo, se presentan los siguientes casos:
 
             p.bg-8.p-4.bg-r8 
               b ai – au – ei – eu – oi – ou – ia – ua – ie – ue – io – uo – ui – ue; ay – ey – oy – iy
@@ -205,13 +205,13 @@
 
           p.text-center
             b Diptongo
-          p.text-center Es la unión inseparable de dos vocales que se pronuncian en una misma sílaba. Puede formarse por la combinación de una vocal abierta y una vocal cerrada, una vocal cerrada y una vocal abierta, o por la unión de dos vocales cerradas. 
+          p.text-center Es la unión de dos vocales que se pronuncian en una misma sílaba. Puede formarse por la combinación de una vocal abierta (a, e, o) y una vocal cerrada (i, u), una vocal cerrada y una vocal abierta, o por la unión de dos vocales cerradas. 
 
           p.text-center.mb-0 Ejemplos:
           p.text-center.mb-0 Ley — ley
           p.text-center.mb-0 Hoy — hoy
-          p.text-center.mb-0 Cuidado — cui – da – do
-          p.text-center.mb-0 Tierra — tie – rra
+          p.text-center.mb-0 Cuidado — cui–da–do
+          p.text-center.mb-0 Tierra — tie–rra
 
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.bg-18.p-4.h-100
@@ -225,10 +225,10 @@
           p.text-center Se presenta cuando dos vocales contiguas se separan en sílabas diferentes durante la pronunciación. Esto ocurre, principalmente, cuando se unen dos vocales abiertas o cuando una vocal cerrada lleva tilde, lo que impide la formación del diptongo. 
 
           p.text-center.mb-0 Ejemplos: 
-          p.text-center.mb-0 Maestro — ma – es – tro
-          p.text-center.mb-0 Croar — cro – ar
-          p.text-center.mb-0 Veas — ve – as
-          p.text-center.mb-0 Petróleo — pe – tró – le – o
+          p.text-center.mb-0 Maestro — ma–es–tro
+          p.text-center.mb-0 Croar — cro–ar
+          p.text-center.mb-0 Veas — ve–as
+          p.text-center.mb-0 Petróleo — pe–tró–le–o
 
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.bg-18.p-4.h-100
@@ -243,10 +243,10 @@
           p.text-center iai – iei – ioi – uau – uou – iau – ieu – iou – uai – uei – uoi
 
           p.text-center.mb-0 Ejemplos: 
-          p.text-center.mb-0 Confiáis — con – fiáis
+          p.text-center.mb-0 Confiáis — con–fiáis
           p.text-center.mb-0 Guau — guau
-          p.text-center.mb-0 Estudiéis — es – tu – diéis
-          p.text-center.mb-0 Paraguay — Pa – ra – guay
+          p.text-center.mb-0 Estudiéis — es–tu–diéis
+          p.text-center.mb-0 Paraguay — Pa–ra–guay
 
 
     .row.align-items-center.mt-4

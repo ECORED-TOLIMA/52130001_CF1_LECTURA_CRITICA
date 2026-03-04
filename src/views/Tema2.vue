@@ -42,7 +42,7 @@
           p
             b Estructura enumerativa
 
-          p  La estructura enumerativa es, sin duda la más fácil de identificar, pues con un simple vistazo al texto se observa que la disposición de ciertos elementos está expuesta a modo de enumeración, como si se tratara de una lista de la compra.
+          p  La estructura enumerativa es, sin duda, la más fácil de identificar, pues con un simple vistazo al texto se observa que la disposición de ciertos elementos está expuesta a modo de enumeración, como si se tratara de una lista de la compra.
 
         .col-md-5
           figure(data-aos="zoom-in-up")
@@ -96,7 +96,7 @@
               img(src="@/assets/curso/tema1/11.svg", alt="", style="width: 100px").m-auto
           .col-lg-8
             p.text-center
-              b Pregunta: ¿Por qué es importante conocer la estructura de los textos?
+              b ¿Por qué es importante conocer la estructura de los textos?
           .col-lg-2
             figure(data-aos="zoom-in-up")
               img(src="@/assets/curso/tema1/11.svg", alt="", style="width: 100px").m-auto

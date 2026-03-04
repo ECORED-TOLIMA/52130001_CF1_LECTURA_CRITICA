@@ -93,7 +93,7 @@
                 th Conectores principales
             tbody
               tr
-                td Tipos de conectores
+                td Causales
                 td Porque, ya que, debido a que, pues, con motivo de, puesto que, a causa de esto, por lo cual.
               tr
                 td Consecutivos

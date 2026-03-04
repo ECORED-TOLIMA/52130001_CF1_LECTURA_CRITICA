@@ -3,6 +3,9 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p El componente formativo integra los fundamentos de la escritura efectiva, así como las normas ortográficas vigentes. Aborda la estructura de párrafos, el uso de conectores y tipos textuales; asimismo, desarrolla la gramática española, el código ortográfico y los signos de puntuación. De esta manera, se fortalecen las competencias para producir documentos de calidad en contextos académicos y laborales, contribuyendo al desarrollo de la lectura crítica mediante la integración de análisis, reflexión y producción escrita. 
+
+    p A continuación, se presenta una síntesis de la temática estudiada en el componente formativo. 
+
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure

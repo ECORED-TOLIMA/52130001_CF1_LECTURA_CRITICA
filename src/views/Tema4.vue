@@ -45,10 +45,9 @@
 
             .row.px-5
               .col-lg-8
-                p.mb-0 Ser conciso exige precisión en el lenguaje, combatir el exceso verbal y el regodeo, y acabar con las imprecisiones. Sobre esta segunda cualidad de la buena redacción, Martín Vivaldi anota que solo se debe emplear aquellas palabras que sean absolutamente precisas para expresar lo que se quiere decir.
+                p Ser conciso exige precisión en el lenguaje, combatir el exceso verbal y el regodeo, y acabar con las imprecisiones. Sobre esta segunda cualidad de la buena redacción, Martín Vivaldi anota que solo se deben emplear aquellas palabras que sean absolutamente precisas para expresar lo que se quiere decir.
                 p Conciso no quiere decir lacónico sino denso: “estilo denso es aquel en que cada línea, cada palabra o cada frase están preñadas de sentido. Lo contrario es la vaguedad, la imprecisión, el exceso de palabras; lo que vulgarmente se dice retórica”.
-
-                p La falta de concisión —advierte con Albalat— es el defecto general de los que empiezan a escribir... La concisión es cuestión de trabajo. Es preciso limpiar el estilo, cribarlo, pasarlo por el tamiz, quitarle la paja, clarificarlo... es preciso evitar lo superfluo, la verborrea, la redundancia, el titubeo expresivo y el añadido de ideas secundarias que nada fortalecen a la idea matriz, sino que más bien la debilitan.
+                p La falta de concisión —advierte Albalat— es el defecto general de los que empiezan a escribir... La concisión es cuestión de trabajo. Es preciso limpiar el estilo, cribarlo, pasarlo por el tamiz, quitarle la paja, clarificarlo... es preciso evitar lo superfluo, la verborrea, la redundancia, el titubeo expresivo y el añadido de ideas secundarias que nada fortalecen a la idea matriz, sino que más bien la debilitan.
               .col-lg-4
                 figure
                   img(src='@/assets/curso/tema4/5.png', alt='', style="width: 370px").m-auto          
@@ -134,7 +133,7 @@
                   alt='Figura 2. Uso correcto e incorrecto del gerundio. Balanza que compara una oración con gerundio incorrecto y otra con una redacción adecuada.'
                 )
 
-          p.mt-4  Para saber si un gerundio está empleado de forma correcta o incorrecta pregunte ‘¿cómo?’ al verbo. Si la respuesta la da el gerundio, está bien empleada. De lo contrario debe buscar una palabra que lo reemplace. Ejemplo:
+          p.mt-4  Para saber si un gerundio está empleado de forma correcta o incorrecta, pregunte ‘¿cómo?’ al verbo. Si la respuesta la da el gerundio, está bien empleada. De lo contrario, debe buscar una palabra que lo reemplace. Ejemplo:
 
           .row.justify-content-center.mt-4
             .col-lg-10

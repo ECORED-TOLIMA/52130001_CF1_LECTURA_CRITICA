@@ -88,10 +88,10 @@
         figure.p-5.bg-7.bg-r8
           img.d-none.d-md-block.m-auto(
             src='@/assets/curso/tema8/7.svg',
-            alt='Esquema con tres etiquetas en forma de flechas que presentan ejemplos de adjetivos calificativos aplicados a sustantivos: Animales feroces, Insectos grandes e Insectos pequeños. ', style="width: 680px").m-auto
+            alt='Esquema con tres etiquetas en forma de flechas que presentan ejemplos de adjetivos calificativos aplicados a sustantivos: animales feroces, Insectos grandes e Insectos pequeños. ', style="width: 680px").m-auto
           img.d-block.d-md-none.m-auto(
             src='@/assets/curso/tema8/7m.svg',
-            alt='Esquema con tres etiquetas en forma de flechas que presentan ejemplos de adjetivos calificativos aplicados a sustantivos: Animales feroces, Insectos grandes e Insectos pequeños. ')
+            alt='Esquema con tres etiquetas en forma de flechas que presentan ejemplos de adjetivos calificativos aplicados a sustantivos: animales feroces, Insectos grandes e Insectos pequeños. ')
 
 
     .row.align-items-center.mt-4
@@ -99,7 +99,7 @@
         figure
           img(src='@/assets/curso/tema8/8.png', alt='', style="width: 290px").m-auto
       .col-lg-8
-        p En los tres casos se señala una especie particular dentro de un conjunto; así, cuando se dice animales feroces, se indica una clase específica de animales para distinguirlos de otros que no presentan esa característica. Estos adjetivos se denominan especificativos, ya que restringen el significado del sustantivo al que acompañan.
+        p En los tres casos se señala una especie particular dentro de un conjunto; así, cuando se dice "animales feroces", se indica una clase específica de animales para distinguirlos de otros que no presentan esa característica. Estos adjetivos se denominan especificativos, ya que restringen el significado del sustantivo al que acompañan.
         .row.bg-r8.bg-5.align-items-center
           .col-lg-2.d-lg-block.d-none
             figure
@@ -130,7 +130,7 @@
 
             .tarjeta.color-secundario.p-3(x="40%" y="26%" numero="+")
               .h5.mb-2 Interrogativos y exclamativos
-              p Indican la actitud del hablante en enunciados interrogativos o exclamativos. Ejemplo: ¿Qué horario prefiere?. ¡Cuánta lluvia ha caído!.
+              p Indican la actitud del hablante en enunciados interrogativos o exclamativos. Ejemplo: ¿Qué horario prefiere? ¡Cuánta lluvia ha caído!
 
             .tarjeta.color-secundario.p-3(x="60%" y="26%" numero="+")
               .h5.mb-2 Posesivos
@@ -152,7 +152,9 @@
 
 
 
-    .titulo-tres.mt-5: h3 8.3 Sinónimos y antónimos
+    separador
+    #t_8_3.titulo-segundo.color-acento-contenido
+      h2 8.3 Sinónimos y antónimos
 
     p Los sinónimos son palabras que se escriben de forma diferente, pero que tienen un significado igual o muy parecido. Por otro lado, los antónimos son aquellas palabras que expresan ideas contrarias u opuestas entre sí.
 

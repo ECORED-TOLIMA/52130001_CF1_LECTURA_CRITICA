@@ -29,7 +29,7 @@
 
           li 
             span.text-bold b)
-            | Los nombres propios de personas, animales, lugares geográficos entre otros.
+            | Los nombres propios de personas, animales, lugares geográficos, entre otros.
 
           li 
             span.text-bold c)
@@ -174,7 +174,7 @@
       .py-3.py-md-4.bg-13(titulo="Se escribe con b")
         .row
           .col-md-12.mb-4.mb-md-0
-            p La letra b siempre representa el fonema labial sonoro de barco, beso, blusa o abuelo. Notas orientadoras sobre el uso de la letra b se escriben con b:
+            p La letra b siempre representa el fonema bilabial sonoro de barco, beso, blusa o abuelo. Notas orientadoras sobre el uso de la letra b se escriben con b:
 
             ol.lista-ol
               li 
@@ -199,7 +199,7 @@
 
               li 
                 span.text-bold f)
-                | Las palabras que empiezan por el elemento compositivo biblio- ('libro') o por las silabas bu-, bur- y bus-. Ejemplos: biblioteca, bula, burla, buscar. Excepción: vudú y sus derivados, además de otras voces caídas en desuso.
+                | Las palabras que empiezan por el elemento compositivo biblio- ('libro') o por las sílabas bu-, bur- y bus-. Ejemplos: biblioteca, bula, burla, buscar. Excepción: vudú y sus derivados, además de otras voces caídas en desuso.
 
               li 
                 span.text-bold g)
@@ -215,7 +215,7 @@
 
               li 
                 span.text-bold j)
-                | Toda palabra en que el fonema labial sonoro precede a otra consonante o está en final de palabra. Ejemplos: abdicación, abnegación, absolver, obtener, obvio, subvenir, amable, brazo, rob, nabab. Excepciones: ovni (acrónimo de objeto volante no identificado) y algunos términos desusados.
+                | Toda palabra en que el fonema labial sonoro precede a otra consonante o está en final de palabra. Ejemplos: abdicación, abnegación, absolver, obtener, obvio, subvenir, amable, brazo, nabab. Excepciones: ovni (acrónimo de objeto volante no identificado) y algunos términos desusados.
 
               li 
                 span.text-bold k)
@@ -248,7 +248,7 @@
 
               li 
                 span.text-bold e)
-                | e) Las voces llanas de uso general terminadas en -viro, -vira, como decenviro, Elvira, triunviro, y las esdrújulas terminadas en -ívoro, -ívora, como carnívora, herbívoro, insectívoro. Excepción: víbora.
+                | Las voces llanas de uso general terminadas en -viro, -vira, como decenviro, Elvira, triunviro, y las esdrújulas terminadas en -ívoro, -ívora, como carnívora, herbívoro, insectívoro. Excepción: víbora.
 
               li 
                 span.text-bold f)
@@ -273,7 +273,25 @@
               figure(data-aos="fade-up")
                 img(src='@/assets/curso/tema6/10.svg', alt='')
 
-          p Los sustantivos terminados en –ción, cuando en su familia hay palabras que terminan en -to, -tor, -dor. Ejemplos: absolución (absuelto), compilación (compilador), operación (operador), canción (canto).
+          p Los sustantivos terminados en -ción, cuando en su familia léxica hay palabras terminadas en -to, -tor o -dor. 
+
+          p 
+            b Ejemplos: 
+
+          ul.lista-ul
+            li 
+              i.lista-ul__vineta
+              p.mb-0 Absolución (absuelto).
+            li
+              i.lista-ul__vineta
+              p.mb-0 Compilación (compilador). 
+            li
+              i.lista-ul__vineta
+              p.mb-0 Operación (operador). 
+
+            li
+              i.lista-ul__vineta
+              p.mb-0 Canción (canto). 
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-20.p-4.h-100
@@ -282,8 +300,25 @@
               figure(data-aos="fade-up")
                 img(src='@/assets/curso/tema6/11.svg', alt='')
 
-          p.mb-0 Las palabras terminadas en –acción, -ección, -icció, ucción, excepto reflexión, conexión, y crucifixión.
-          p Ejemplos: calefacción, elección, predicción, producción.
+          p Las palabras terminadas en –acción, -ección, -icción, ucción, excepto reflexión, conexión, y crucifixión.
+          p 
+            b Ejemplos: 
+
+          ul.lista-ul
+            li
+              i.lista-ul__vineta
+              p.mb-0 Calefacción. 
+            li
+              i.lista-ul__vineta
+              p.mb-0 Elección.
+            li
+              i.lista-ul__vineta
+              p.mb-0 Predicción.
+
+            li
+              i.lista-ul__vineta
+              p.mb-0 Producción.
+        
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-20.p-4.h-100
@@ -292,7 +327,20 @@
               figure(data-aos="fade-up")
                 img(src='@/assets/curso/tema6/12.svg', alt='')
 
-          p Los verbos terminados en –acer, -ecer, y –ciar. Ejemplos: renacer, aparecer, apreciar.
+          p Los verbos terminados en –acer, -ecer, y –ciar. 
+          p 
+            b Ejemplos: 
+
+          ul.lista-ul
+            li
+              i.lista-ul__vineta
+              p.mb-0 Renacer. 
+            li
+              i.lista-ul__vineta
+              p.mb-0 Aparecer.
+            li
+              i.lista-ul__vineta
+              p.mb-0 Apreciar.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-20.p-4.h-100
@@ -301,7 +349,25 @@
               figure(data-aos="fade-up")
                 img(src='@/assets/curso/tema6/13.svg', alt='')
 
-          p.mb-0 La mayoría de las palabras que terminan en –cio, -ancia, -encia, -acia. Ejemplos: espacio, exuberancia, vivencia, acrobacia.
+          p La mayoría de las palabras que terminan en –cio, -ancia, -encia, -acia. 
+          p 
+            b Ejemplos: 
+
+          ul.lista-ul
+            li
+              i.lista-ul__vineta
+              p.mb-0 Espacio.
+            li
+              i.lista-ul__vineta
+              p.mb-0 Exuberancia.
+            li
+              i.lista-ul__vineta
+              p.mb-0 Vivencia.
+
+            li
+              i.lista-ul__vineta
+              p.mb-0 Acrobacia.
+
 
 
     .titulo-tres.mt-5: h3 Se escribe con q
@@ -317,14 +383,17 @@
             figure(data-aos="fade-up")
               img(src="@/assets/curso/tema6/14.svg", alt="", style="width: 85px").m-auto
           .col-lg-10
-            p #[b Ejemplos:] esquela, aquí, quiste. De ahí que las formas de un amplio grupo de verbos cuyos infinitivos terminan en -car cambien la #[b c] por #[b qu] en el pretérito perfecto simple y en el presente de subjuntivo. Ejemplos: remolqué (de remolcar), ataquemos (de atacar).
+            p #[b Ejemplos:] esquela, aquí, quiste. De ahí que las formas de un amplio grupo de verbos cuyos infinitivos terminan en -car cambien la #[b c] por #[b qu] en el pretérito perfecto simple y en el presente de subjuntivo. 
+            
+            p #[b Ejemplos:] remolqué (de remolcar), ataquemos (de atacar).
 
         .row.align-items-center.mt-4
           .col-lg-4.d-lg-block.d-none
             figure(data-aos="fade-up")
               img(src="@/assets/curso/tema6/15.svg", alt="", style="width: 290px").m-auto
           .col-lg-8
-            p Algunas voces científicas, palabras y locuciones latinas en que este grupo de letras precede con sonido oclusivo velar sordo a las vocales a y o, la letra u sí se pronuncia. Ejemplos: quark, quáter, a quo, quorum. Para otros casos, se recomienda emplear la grafía adaptada al español, como en cuark, cuásar, cuórum, Irak, Catar, Turquestán, caqui, cuáquero, euskera, quiosco o telequinesia.
+            p Algunas voces científicas, palabras y locuciones latinas en que este grupo de letras precede con sonido oclusivo velar sordo a las vocales a y o, la letra u sí se pronuncia. 
+            p #[b Ejemplos:] quark, quáter, a quo, quorum. Para otros casos, se recomienda emplear la grafía adaptada al español, como en cuark, cuásar, cuórum, Irak, Catar, Turquestán, caqui, cuáquero, euskera, quiosco o telequinesia.
 
       .col-lg-3.d-lg-block.d-none
         figure(data-aos="fade-up")
@@ -383,9 +452,9 @@
 
                 p #[b e)] Las que terminan en -giénico, -ginal, -gíneo, -ginoso (excepto aguajinoso). Ejemplos: higiénico, original, virgíneo, ferruginoso.
 
-                p #[b f)] Las que terminan en -gia, -gio, -gión, -gional, -gionario, -gioso y -gírico. Ejemplos: magia, regia, frigia, liturgia, litigio, religión, regional, legionario, prodigioso, panegírico. Excepciones: las voces que terminan en -plejia o -plejia (apoplejia, paraplejia…) y eijón.
+                p #[b f)] Las que terminan en -gia, -gio, -gión, -gional, -gionario, -gioso y -gírico. Ejemplos: magia, regia, frigia, liturgia, litigio, religión, regional, legionario, prodigioso, panegírico. Excepciones: las voces que terminan en -plejia (apoplejia, paraplejia…) y eijón.
 
-                p #[b g)] Las que terminan en -ígeno, -ígena, -ígero, -ígera. Ejemplos: indígena, oxígeno, aligera, belígero.
+                p #[b g)] Las que terminan en -ígeno, -ígena, -ígero, -ígera. Ejemplos: indígena, oxígeno, belígero.
 
                 p #[b h)] Las que terminan en -logía, -gogía o -agogía. Ejemplos: teología, demagogia, pedagogía.
 
@@ -406,37 +475,125 @@
                   .row.justify-content-center.mb-3
                     .col-6
                       img(src='@/assets/curso/tema6/20.svg' alt='AvatarTop')
-                  p.text-center #[b a)] Las palabras derivadas de voces que tienen j ante las vocales a, o, u. Así, cajero, cajita (de caja); lisonjear (de lisonja); cojear (de cojo); ojear (de ojo); rojear, rojizo (de rojo).
+                  p.text-center #[b a)] Las palabras derivadas de voces que tienen j ante las vocales a, o, u. Así, 
+                  
+                  ul.lista-ul
+                    li
+                      i.lista-ul__vineta
+                      p.mb-0 Cajero, cajita (de caja).
+                    li
+                      i.lista-ul__vineta
+                      p.mb-0 Lisonjear (de lisonja).
+                    li
+                      i.lista-ul__vineta
+                      p.mb-0 Cojear (de cojo).
+                    li
+                      i.lista-ul__vineta
+                      p.mb-0 Ojear (de ojo).
+                    li
+                      i.lista-ul__vineta
+                      p.mb-0 Rojear, rojizo (de rojo).
+
                 .tarjeta.bg-19.p-4
                   .row.justify-content-center.mb-3
                     .col-6
                       img(src='@/assets/curso/tema6/21.svg' alt='AvatarTop')
-                  p.text-center.mb-0 #[b b) ] Las voces de uso actual que terminan en -aje, -eje. Ejemplos: coraje, hereje, garaje.
-                  p.text-center Excepciones: ambages, enálage, ipálage.
+                  p.text-center #[b b) ] Las voces de uso actual que terminan en -aje, -eje. 
+                  
+                  .row.justify-content-center
+                    .col-lg-6
+                      p 
+                        b Ejemplos: 
+
+                      ul.lista-ul
+                        li
+                          i.lista-ul__vineta
+                          p.mb-0 Coraje.
+                        li
+                          i.lista-ul__vineta
+                          p.mb-0 Hereje.
+                        li
+                          i.lista-ul__vineta
+                          p.mb-0 Garaje. 
+
+                    .col-lg-6
+                      p 
+                        b Excepciones: 
+
+                      ul.lista-ul
+                        li
+                          i.lista-ul__vineta
+                          p.mb-0 Ambages.
+                        li
+                          i.lista-ul__vineta
+                          p.mb-0 Enálage.
+                        li
+                          i.lista-ul__vineta
+                          p.mb-0 Hipálage. 
+
 
                 .tarjeta.bg-19.p-4
                   .row.justify-content-center.mb-3
                     .col-6
                       img(src='@/assets/curso/tema6/22.svg' alt='AvatarTop')
-                  p.text-center #[b c) ] Las que acaban en -jería. Ejemplos: cerrajería, consejería, extranjería.
+                  p.text-center #[b c) ] Las que terminan en -jería. 
+                  
+                  p
+                    b Ejemplos: 
+
+                  ul.lista-ul
+                    li
+                      i.lista-ul__vineta
+                      p.mb-0 Cerrajería.
+                    li
+                      i.lista-ul__vineta
+                      p.mb-0 Consejería.
+                    li
+                      i.lista-ul__vineta
+                      p.mb-0 Extranjería. 
+                   
 
                 .tarjeta.bg-19.p-4
                   .row.justify-content-center.mb-3
                     .col-6
                       img(src='@/assets/curso/tema6/23.svg' alt='AvatarTop')
-                  p.text-center #[b d) ] Las formas verbales de los infinitivos que terminan en -jar. Ejemplos: trabaje, trabajemos (de trabajar), empuje (de empujar). También las de los pocos verbos terminados en -jer y en -jir, como cruje (de crujir), teje (de tejer).
+                  p.text-center #[b d) ] Las formas verbales de los infinitivos que terminan en -jar. 
+                  
+                  p 
+                    b Ejemplos: 
+                    
+                  p trabaje, trabajemos (de trabajar), empuje (de empujar). 
+                  
+                  p También las de los pocos verbos terminados en -jer y en -jir, como cruje (de crujir), teje (de tejer).
 
                 .tarjeta.bg-19.p-4
                   .row.justify-content-center.mb-3
                     .col-6
                       img(src='@/assets/curso/tema6/24.svg' alt='AvatarTop')
-                  p.text-center #[b e) ] Los verbos terminados en -jear, así como sus correspondientes formas verbales. Ejemplos: canjear, homenajear, cojear. Excepción: aspergear.
+                  p.text-center #[b e) ] Los verbos terminados en -jear, así como sus correspondientes formas verbales. 
+                  
+                  p
+                    b Ejemplos: canjear, homenajear, cojear. 
+
+                  ul.lista-ul
+                    li
+                      i.lista-ul__vineta
+                      p.mb-0 Canjear.
+                    li
+                      i.lista-ul__vineta
+                      p.mb-0 Homenajear.
+                    li
+                      i.lista-ul__vineta
+                      p.mb-0 Cojear. 
+
+                  p #[b Excepción:] aspergear.
 
                 .tarjeta.bg-19.p-4
                   .row.justify-content-center.mb-3
                     .col-6
                       img(src='@/assets/curso/tema6/25.svg' alt='AvatarTop')
-                  p.text-center #[b f) ] El pretérito perfecto simple y el pretérito imperfecto y futuro de subjuntivo de los verbos traer, decir y sus derivados, y de los verbos terminados en -ducir. Ejemplos: traje (de traer), dije, dijera (de decir), predijéramos (de predecir), adujera, adujeren (de aducir).
+                  p.text-center #[b f) ] El pretérito perfecto simple y el pretérito imperfecto y futuro de subjuntivo de los verbos traer, decir y sus derivados, y de los verbos terminados en -ducir. 
+                  p #[b Ejemplos:] traje (de traer), dije, dijera (de decir), predijéramos (de predecir), adujera, adujeren (de aducir).
 
 
     .titulo-tres.mt-5: h3 Se escribe con h
@@ -504,7 +661,7 @@
             figure(data-aos="fade-left")
               img(src="@/assets/curso/tema6/32.svg", alt="", style="width: 80px").m-auto
           .col-lg-10
-            p Asimismo, se escriben con y las palabras que contienen la sílaba yec-, como abyecto, proyección e inyectar. También conservan la y los plurales de los sustantivos que terminan en y en singular, como rey/reyes, y el gerundio del verbo ir, yendo.
+            p Asimismo, se escriben con y las palabras que contienen la sílaba yec-, como abyecto, proyección e inyectar. También conservan la y los plurales de los sustantivos que terminan en -y en singular, como rey/reyes, y el gerundio del verbo ir, yendo.
         
     .titulo-tres.mt-5: h3 Se escribe con x
 
@@ -514,7 +671,7 @@
         p Ejemplos: examen, exhibir, hexágono, explorar, relax.
 
         p.mb-0 En cambio, en posición inicial de palabra, la pronunciación más frecuente es /s/, y en posición final de sílaba puede realizarse, según las regiones y las consonantes que sigan, como /s/ o /ks/ (o /gs/).
-        p Ejemplos: xilófono, excelente, xenofobia, xerigrafía, excavar, exportar, exterior, exfoliante.
+        p Ejemplos: xilófono, excelente, xenofobia, xerografía, excavar, exportar, exterior, exfoliante.
 
         .row.justify-content-center.text-center.bg-8.bg-r8.p-4
           p La reducción a /s/ de la pronunciación de la x suele originar dudas ortográficas, por lo que es necesario atender a la forma correcta de escritura de las palabras. 

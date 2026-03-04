@@ -29,7 +29,7 @@
       .col-lg-7
         p El resumen es un documento académico que organiza de manera lógica las ideas más importantes que provienen de un documento base, sea este escrito, verbal o icónico.
 
-        p En el proceso de recolectar información para una actividad investigativa, se dan pasos que implican leer, seleccionar, organizar los contenidos y no solo transcribirlos literalmente. Características Olga Lucía Arbeláez (2007) en su artículo El resumen.
+        p En el proceso de recolectar información para una actividad investigativa, se dan pasos que implican leer, seleccionar, organizar los contenidos y no solo transcribirlos literalmente. Características Según Olga Lucía Arbeláez (2007) en su artículo El resumen.
 
         p La cultura extraviada en sus definiciones presenta cuatro características fundamentales:
 
@@ -221,6 +221,22 @@
             i.lista-ul__vineta
             p.mb-0 #[b Personal y familiar:] revela el carácter y la personalidad del autor.
 
+          .row.mt-4.bg-base.p-3.bg-r8
+            .col-12
+              ul.lista-ul--color
+                li.d-flex.align-items-start
+                  span.icono-img
+                  p.mb-0 La práctica diaria es el único sistema de perfeccionamiento de la lectura.
+          
+                li.d-flex.align-items-start
+                  span.icono-img
+                  p.mb-0 Antes de iniciar la lectura, se debe hojear el texto. La exploración preliminar del texto es el medio ideal para mejorar la comprensión.
+          
+                li.d-flex.align-items-start
+                  span.icono-img
+                  p.mb-0 Es necesario contar con condiciones óptimas para consultar los textos: buena iluminación, postura adecuada, la distancia adecuada del papel y una actitud positiva.
+          
+
 
       .col-lg-3.d-none.d-lg-block
         figure(data-aos="zoom-in-down")
@@ -232,33 +248,22 @@
     ul.lista-ul.p-4.bg-7.bg-r8
       li 
         i.lista-ul__vineta
-        p.mb-0 #[b Estructura libre] 
-        
-      p.px-3 El ensayo debe ir desde lo descriptivo hasta la interpretación del asunto que trata; puede expresar sensibilidad, creatividad e imaginación y sustentarse en el rigor lógico, conceptual y metodológico que aportan la investigación y el estudio de los hechos (Cañón, 2002).
+        p.mb-0 #[b Estructura libre:] el ensayo debe ir desde lo descriptivo hasta la interpretación del asunto que trata; puede expresar sensibilidad, creatividad e imaginación y sustentarse en el rigor lógico, conceptual y metodológico que aportan la investigación y el estudio de los hechos (Cañón, 2002).
 
 
       li 
         i.lista-ul__vineta
-        p.mb-0 #[b  Forma sintética y breve] 
-
-      p.px-3 Este rasgo característico puede variar; depende del propósito del autor y del tema que trate. Existen ensayos cortos y breves, así como ensayos de mediana extensión.
+        p.mb-0 #[b  Forma sintética y breve:] este rasgo característico puede variar; depende del propósito del autor y del tema que trate. Existen ensayos cortos y breves, así como ensayos de mediana extensión.
 
 
       li 
         i.lista-ul__vineta
-        p.mb-0 #[b El ensayo es una reflexión] 
-      p.px-3 El ensayo puede partir de la reflexión de otros y debe convencer con los argumentos que allí se exponen.
+        p.mb-0 #[b El ensayo es una reflexión:] el ensayo puede partir de la reflexión de otros y debe convencer con los argumentos que allí se exponen.
 
 
       li 
         i.lista-ul__vineta
-        p.mb-0 #[b El ensayo tiene carácter discursivo] se basa en cualquier asunto que se transforme en objetivo artístico; recurre a la fantasía y a la imaginación.
-
-      li 
-        i.lista-ul__vineta
-        p.mb-0 #[b Personal y familiar:] revela el carácter y la personalidad del autor.
-      p.px-3 Las ideas se entrelazan de forma organizada para dar una lógica interna a la composición.
-
+        p.mb-0 #[b El ensayo tiene carácter discursivo:] las ideas se entrelazan de forma organizada para dar una lógica interna a la composición.
 
     p.mt-4 Con el propósito de facilitar la comprensión de la estructura argumentativa y su correcta aplicación en la producción de textos, se describen a continuación las partes fundamentales que constituyen un ensayo:
 
@@ -317,7 +322,7 @@
               img(src="@/assets/curso/tema1/11.svg", alt="", style="width: 100px").m-auto
           .col-lg-8
             p.text-center
-              b Pregunta: ¿Cuál es la diferencia de los tipos de textos resumen y ensayo?
+              b ¿Cuál es la diferencia entre un resumen y un ensayo?
           .col-lg-2
             figure(data-aos="zoom-in-down")
               img(src="@/assets/curso/tema1/11.svg", alt="", style="width: 100px").m-auto

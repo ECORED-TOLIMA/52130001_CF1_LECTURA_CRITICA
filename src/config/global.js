@@ -294,12 +294,12 @@ export default {
         {
           nombre: 'Jenny Paola García Cárdenas',
           cargo: 'Experta temática',
-          centro: 'Regional Risaralda ',
+          centro: 'Centro Agropecuario-Regional Risaralda',
         },
         {
           nombre: 'Didier Andrés Ospina Osorio',
           cargo: 'Asesor pedagógico',
-          centro: 'Regional Risaralda ',
+          centro: 'Centro Agropecuario-Regional Risaralda',
         },
         {
           nombre: 'Gloria Lida Alzate Suárez',
