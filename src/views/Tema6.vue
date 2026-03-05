@@ -661,7 +661,7 @@
             figure(data-aos="fade-left")
               img(src="@/assets/curso/tema6/32.svg", alt="", style="width: 80px").m-auto
           .col-lg-10
-            p Asimismo, se escriben con y las palabras que contienen la sílaba yec-, como abyecto, proyección e inyectar. También conservan la y los plurales de los sustantivos que terminan en -y en singular, como rey/reyes, y el gerundio del verbo ir, yendo.
+            p Asimismo, se escriben con -y las palabras que contienen la sílaba yec-, como abyecto, proyección e inyectar. También conservan la y los plurales de los sustantivos que terminan en -y en singular, como rey/reyes, y el gerundio del verbo ir, yendo.
         
     .titulo-tres.mt-5: h3 Se escribe con x
 
