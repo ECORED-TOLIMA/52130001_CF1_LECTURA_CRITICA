@@ -239,7 +239,7 @@
 
           p.text-center
             b Triptongo
-          p.text-center.mb-0 Es la unión inseparable de tres vocales que se pronuncian en una misma sílaba. La única disposición posible para su formación responde al esquema vocal cerrada + vocal abierta (o semiabierta) + vocal cerrada. Así se presentan las siguientes combinaciones:
+          p.text-center.mb-0 Es la unión de tres vocales que se pronuncian en una misma sílaba. La única disposición posible para su formación responde al esquema vocal cerrada + vocal abierta (o semiabierta) + vocal cerrada. Así se presentan las siguientes combinaciones:
           p.text-center iai – iei – ioi – uau – uou – iau – ieu – iou – uai – uei – uoi
 
           p.text-center.mb-0 Ejemplos: 
@@ -251,7 +251,7 @@
 
     .row.align-items-center.mt-4
       .col-lg-9
-        p #[b Grupos consonánticos:] son los formados por la unión inseparable de dos consonantes. La primera de este grupo debe ser, necesariamente, alguna de las consonantes siguientes: b, c, d, f, g, p, t, llamadas consonantes oclusivas. La segunda debe ser alguna de estas dos: l, r, llamadas consonantes líquidas. De esta combinación se forman los siguientes grupos consonánticos: bl, br, cr, cl, dr, fl, fr, gl, gr, pl, pr, tl, tr.
+        p #[b Grupos consonánticos:] son los formados por la unión de dos consonantes. La primera de este grupo debe ser, necesariamente, alguna de las consonantes siguientes: b, c, d, f, g, p, t, llamadas consonantes oclusivas. La segunda debe ser alguna de estas dos: l, r, llamadas consonantes líquidas. De esta combinación se forman los siguientes grupos consonánticos: bl, br, cr, cl, dr, fl, fr, gl, gr, pl, pr, tl, tr.
 
         .row.align-items-center
           .col-lg-2.d-none.d-lg-block

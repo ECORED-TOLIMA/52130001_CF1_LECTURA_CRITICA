@@ -97,6 +97,7 @@
           p.px-3.mb-0 Existen palabras y oraciones que parece que sirvieran para todo y a veces no sirven para nada. Es mejor no usarlas.
           p.px-3 Todas las palabras significan algo y tienen un uso adecuado. El error está en exceder el sentido de algunos términos o usar muchas palabras para decir algo que puede ser expresado de manera más breve.
 
+        p.mt-4 Para evidenciar la importancia de la precisión léxica en la escritura, se presenta la siguiente figura comparativa. En ella se observa cómo una redacción clara y directa mejora la comprensión del mensaje.
           .row.justify-content-center
             .col-lg-10
               .titulo-sexto.color-acento-contenido.mb-3.mt-4
