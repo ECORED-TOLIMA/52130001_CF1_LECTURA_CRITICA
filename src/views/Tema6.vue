@@ -229,7 +229,7 @@
       .py-3.py-md-4.bg-14(titulo="Se escribe con v")
         .row
           .col-md-12.mb-4.mb-md-0
-            p La letra v siempre representa el fonema labial sonoro de vaso, vida, invadir o cavar. Notas orientadoras sobre el uso de la letra v. Se escribe con v:
+            p La letra v siempre representa el fonema bilabial sonoro de vaso, vida, invadir o cavar. Notas orientadoras sobre el uso de la letra v. Se escribe con v:
 
             ol.lista-ol
               li 
