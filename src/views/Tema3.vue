@@ -29,7 +29,7 @@
       .col-lg-7
         p El resumen es un documento académico que organiza de manera lógica las ideas más importantes que provienen de un documento base, sea este escrito, verbal o icónico.
 
-        p En el proceso de recolectar información para una actividad investigativa, se dan pasos que implican leer, seleccionar, organizar los contenidos y no solo transcribirlos literalmente. Características Según Olga Lucía Arbeláez (2007) en su artículo El resumen.
+        p En el proceso de recolectar información para una actividad investigativa, se dan pasos que implican leer, seleccionar, organizar los contenidos y no solo transcribirlos literalmente. Características Según Olga Lucía Arbeláez (2007) en su artículo #[b <em>El resumen</em>].
 
         p La cultura extraviada en sus definiciones presenta cuatro características fundamentales:
 
